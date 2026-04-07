@@ -2,9 +2,14 @@ import { useState } from 'react'
 
 import './App.css'
 
+// pages
 import Agendamento from './pages/agendamento/Agendamento.jsx'
 
 import Contato from './pages/contato/Contato.jsx'
+
+
+// components:
+import Header from './components/Header/Header.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +17,10 @@ function App() {
   return (
   <div>
     {/* header vem aqui */}
+    
     {/* ligar ao header component */}
     <Router>
-
+      <Header />
       <Routes>
 
         <Route path='/contato' element={<Contato />}/>
@@ -29,4 +35,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
