@@ -1,0 +1,108 @@
+
+
+.SectionHome {
+    background-color: rgb(146, 184, 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px 29px 51px;
+    gap: 29px
+
+}
+
+.AreaTextoContainerHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+    padding: 39px 0px;
+    
+}
+
+
+.TituloAreaTextoHome {
+    font-size: 37px;
+    color: #174270;
+}
+
+
+.ParagrafoAreaTextoHome {
+    padding: 15px 0px;;
+    color: #4a4d50e0;
+    font-size: 20px;
+    
+}
+
+.ImgSectionHome {
+    order: 1;
+    height: 299px;
+    max-width: 27rem;
+    min-width: 15rem;
+}
+
+.img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    ;
+}
+
+@media(min-width: 754px) {
+    .SectionHome {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ImgSectionHome {
+        order: 2;
+        max-width: 28rem;
+        min-width: 6rem;
+}
+
+    .AreaTextoContainerHome {
+        max-width: 25rem;
+        width: 30rem;
+    }
+
+    .TituloAreaTextoHome {
+        max-width: 100%;
+    }
+
+    .ParagrafoAreaTextoHome {
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    .SectionHome {
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+
+    .AreaTextoContainerHome {
+        max-width: 28rem;
+        width: 45rem;
+    }
+
+    .TituloAreaTextoHome {
+        font-size: 54px;
+    }
+
+    .ParagrafoAreaTextoHome {
+        font-size: 21px;
+    }
+
+    .ImgSectionHome {
+        width: 540px;
+        max-width: 42rem;
+        height: 351px;
+        min-width: 6rem;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+}
