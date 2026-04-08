@@ -1,5 +1,85 @@
 
+.ContainerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 196, 196, 0.788);
+    padding: 0px 0px 25px;
+
+    
+
+ 
+}
+
+
 
 .LogoHeader {
-    color: black;
+    color: rgb(61, 61, 147);
+    margin: 34px 0px 0px;
+
+    @media(min-width: 754px) {
+    
+
+    }
+}
+
+.ContainerListaMenu {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    margin: 16px 0px 0px;
+}
+
+.ItemListaMenu {
+    text-decoration: none;
+    color: rgb(61, 61, 147);
+}
+
+
+@media(min-width: 754px) {
+    .ContainerHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 31px 0px;
+        gap: 93px;
+    }
+
+    .LogoHeader {
+        margin: 0px 0px 0px;
+    }
+        
+
+    .ItemListaMenu {
+        font-size: 19px;
+    }
+
+}
+
+
+@media(min-width: 1024px) {
+    .ContainerHeader {
+        display: flex;
+        /* gap: 300px; */
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+
+    .LogoHeader {
+        margin: 7px 0px 0px 128px;
+        font-size: 40px;
+    }
+       
+    .ContainerListaMenu {
+        margin: 16px 170px 0px 0px;
+    }
+
+    .ItemListaMenu {
+        font-size: 20px;
+    }
+
+    .ContainerListaMenu {
+        gap: 50px;
+    }
 }
