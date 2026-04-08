@@ -1,6 +1,8 @@
 
 import './Header.css'
 
+import {Link} from 'react-router-dom';
+
 function Header() {
     return(
        <header className="ContainerHeader">
@@ -12,7 +14,7 @@ function Header() {
                     <li ><a href="#Especialidade" className="ItemListaMenu">Especialidades</a></li>
                     <li ><a href="#Info" className="ItemListaMenu" >Info</a></li>
                     <li ><a href="#Exames" className="ItemListaMenu" >Exames</a></li>
-                    <li className="ItemListaMenu">Contato</li>
+                    <li ><Link to="/contato" className="ItemListaMenu">Contato</Link></li>
                 </ul>
             </nav>
        </header>    
