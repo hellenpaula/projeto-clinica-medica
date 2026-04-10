@@ -17,9 +17,9 @@ function SectionHome() {
                 </p>
             </div>
 
-            <div className="ImgSectionHome">
+            {/* <div className="ImgSectionHome">
                 <img src={imagem} alt="" className='img'/>
-            </div>
+            </div> */}
 
         </section>
     )
