@@ -1,0 +1,23 @@
+
+
+.CardSobre {
+    display: flex;
+    gap: 16px;
+    width: 400px;
+}
+
+.fa-solid, .fa-regular {
+    background: #0000ff54;
+    height: 26px;
+    padding: 18px 45px 45px 15px; 
+    font-size: 31px;
+    border-radius: 6px;
+}
+
+.tituloTextoCardSobre {
+    font-size: 18px;
+}
+
+.paragrafoTextoCardSobre {
+    font-size: 17px;
+}

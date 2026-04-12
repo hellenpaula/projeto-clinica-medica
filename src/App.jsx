@@ -17,6 +17,8 @@ import Header from './components/Header/Header.jsx'
 
 import SectionHome from './components/principal/SectionHome/SectionHome.jsx'
 
+import SectionSobre from './components/principal/SectionSobre/SectionSobre.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +31,7 @@ function App() {
     <Router>
       <Header />
       <SectionHome />
+      <SectionSobre />
       <Routes>
 
         <Route path='/contato' element={<Contato />}/>
