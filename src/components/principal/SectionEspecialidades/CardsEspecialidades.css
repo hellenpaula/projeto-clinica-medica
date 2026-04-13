@@ -1,0 +1,46 @@
+
+
+
+.CardEspecialidades {
+    background-color: white;
+    /* flex-direction: column; */
+
+    width: 18rem;
+    padding: 23px 254px 39px 17px;
+    margin: 0px 0px 7px 0px;
+    border-radius: 13px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.CardEspecialidades:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+} 
+
+
+.ImgIconeCardEspeciali {
+    width: 2.7rem;
+    /* background: #09559824; */
+    padding: 9px 11px;
+    border-radius: 5px;
+}
+
+.TituloCardEspeciali {
+    font-size: 20px;
+    width: 17rem;
+    padding: 9px 0px;
+}
+
+.ParagrafoCardEspeciali {
+    width: 295px;
+}
+
+@media(min-width: 1350px) {
+   
+    .CardEspecialidades{
+        width: 22rem;
+        padding: 23px 254px 39px 28px;
+    }
+    
+}
