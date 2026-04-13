@@ -1,0 +1,22 @@
+
+.ContainerCardsAreaConquistas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 101px;
+    padding: 72px 10px;
+}
+
+
+@media(min-width: 800px) {
+    .ContainerCardsAreaConquistas {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1024px) {
+    .ContainerCardsAreaConquistas {
+        gap: 173px;
+    }
+}

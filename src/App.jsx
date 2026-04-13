@@ -21,6 +21,7 @@ import SectionSobre from './components/principal/SectionSobre/SectionSobre.jsx'
 
 import SectionEspecialidades from './components/principal/SectionEspecialidades/SectionEspecialidades.jsx'
 
+import SectionConquistas from './components/principal/SectionConquistas/SectionConquistas.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,6 +36,8 @@ function App() {
       <SectionHome />
       <SectionSobre />
       <SectionEspecialidades />
+      <SectionConquistas />
+      
       <Routes>
 
         <Route path='/contato' element={<Contato />}/>

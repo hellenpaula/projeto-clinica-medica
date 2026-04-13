@@ -1,0 +1,21 @@
+
+
+.CardConquistas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ImagemIconeConquistas {
+    width: 5rem;
+}
+
+.ValorCardConquistas {
+    font-size: 32px;
+    padding: 16px 0px 12px;
+}
+
+
+.ParagrafoCardConquistas {
+    font-size: 17px;
+}
