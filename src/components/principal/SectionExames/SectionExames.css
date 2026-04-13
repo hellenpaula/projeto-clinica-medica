@@ -1,0 +1,53 @@
+
+.SectionExames {
+    background-color: rgb(212, 236, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.TituloAreaTextoExames {
+    font-size: 34px;
+    color: #383880;
+    padding: 90px 0px 117px;
+    text-align: center;
+}
+
+.ContainerCardsAreaExames {
+    overflow-x: scroll;
+    width: 262px;
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+    padding: 8px 0px 10px 10px;
+    margin: 0px 0px 94px;
+    scrollbar-width:none;
+}
+
+
+.ContainerBotaoAreaExames {
+
+}
+
+.BotaoExames {
+    background: #16167ab3;
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 9px;
+    font-size: 14px;
+
+}
+
+.BotaoExames:hover {
+    background-color: #16167aa5;
+}
+
+@media(min-width: 800px) {
+    .ContainerCardsAreaExames{
+        width: 753px;
+        gap: 31px;
+    }   
+   
+}

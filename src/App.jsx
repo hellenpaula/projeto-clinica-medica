@@ -23,6 +23,8 @@ import SectionEspecialidades from './components/principal/SectionEspecialidades/
 
 import SectionConquistas from './components/principal/SectionConquistas/SectionConquistas.jsx'
 
+import SectionExames from './components/principal/SectionExames/SectionExames.jsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,6 +39,7 @@ function App() {
       <SectionSobre />
       <SectionEspecialidades />
       <SectionConquistas />
+      <SectionExames />
       
       <Routes>
 

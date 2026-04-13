@@ -1,0 +1,52 @@
+
+
+.CardExames {
+    background-color: white;
+    width: 14rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 78px 0px 78px;
+    border-radius: 10px;
+    border: 2px solid #0045ff52;
+    box-shadow: 1px 1px 10px #00000017;
+    transition: 0.3s ease-in-out;
+}
+
+.CardExames:hover {
+    /* transform: translateY(-5px); */
+    transform: scale(102%);
+    transition: 0.3s ease-in-out;
+}
+
+
+.TituloCardExames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0px;
+    font-size: 19px;
+    width: 10rem;
+}
+
+.ImgIconeExames {
+    width: 5rem;
+    background-color: #0000ff17;
+    padding: 14px 13px 15px;
+    border-radius: 55%;
+}
+
+.ImgIconeExames:hover {
+    background-color: #d13f2c44;
+    transition: 0.2s ;
+
+}
+
+@media(min-width: 800px) {
+    .CardExames {
+        width: 14rem;
+    }
+ }
