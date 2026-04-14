@@ -15,9 +15,20 @@
         justify-content: left;
         gap: 32px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
         max-width: 330px;
-        margin: 0px 0px 94px;
+        margin: 0px 0px 61px;
         padding: 10px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    max-width: 311px;
+    margin: 0px 0px 61px;
+    padding: 10px 0px;
+
 }
 
 
@@ -43,6 +54,23 @@
     background-color: #16167aa5;
 }
 
+.ContainerSetasCarrossel {
+    margin: 0px 0px 96px;
+}
+
+
+.ContainerSetasCarrossel button {
+    background: none;
+    border: none;
+}
+
+.SetaEsquerdaCarrossel, .SetaDireitaCarrossel {
+    width: 45px;
+    margin: 0px 6px;
+}
+
+
+
 @media(min-width: 800px) {
     /* .SectionEspecialidades {
         display: flex;
@@ -55,8 +83,8 @@
         /* display: flex; */
         /* grid-template-columns: 25% 25% 25%; */
         /* justify-content: center; */
-        /* gap: 27px; */
-        max-width: 40rem;
+        gap: 15px;
+        max-width: 39rem;
         /* scrollbar-width: none; */
         /* flex-wrap: wrap; */
     }
@@ -77,11 +105,15 @@
         /* grid-template-columns: 25% 25% 25%; */
         /* justify-content: center; */
         gap: 27px;
-        max-width: 58rem;
+        max-width: 59rem;
         scrollbar-width: none;
         flex-wrap: wrap;
         overflow-x: clip;
         
+    }
+
+    .ContainerSetasCarrossel {
+        display: none;
     }
 }
 
