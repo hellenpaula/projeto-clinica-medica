@@ -7,6 +7,10 @@ import CardsEspecialidades from './CardsEspecialidades';
 // imagens:
 import ImagemIconeOdonto from '../../../assets/icone/icone dente.png'
 
+import ImagemSeta from '../../../assets/icone/seta.png'
+
+import { useRef } from 'react'
+
 function SectionEspecialidades() {
 
     const DadosCardsEspecialidades = [
@@ -57,12 +61,25 @@ function SectionEspecialidades() {
     ]
 
 
+    const carrossel = useRef(null);
+
+    const ArrowLeftClick = (e) => {
+        e.preventDefault();
+        carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
+    }
+
+    const ArrowRightClick = (e) => {
+        e.preventDefault();
+        carrossel.current.scrollLeft += carrossel.current.offsetWidth;
+    }
+
+
     return(
         <section className="SectionEspecialidades">
             <h3 className='TituloAreaTextoEspecialidade'>Especialidades</h3>
        
 
-            <div className="ContainerCardsAreaEspecialidades">
+            <div className="ContainerCardsAreaEspecialidades" ref={carrossel}>
 
             {DadosCardsEspecialidades.map((dado) => (
                  <CardsEspecialidades 
@@ -75,6 +92,12 @@ function SectionEspecialidades() {
             ))}
            
 
+            </div>
+
+            <div className="ContainerSetasCarrossel">
+                <button onClick={ArrowLeftClick}><img src={ImagemSeta} alt="" className="SetaEsquerdaCarrossel" /></button>
+
+                <button onClick={ArrowRightClick}><img src={ImagemSeta} alt="" className="SetaDireitaCarrossel" /></button>
             </div>
 
             <div className="ContainerBotaoAreaEspecialidade">

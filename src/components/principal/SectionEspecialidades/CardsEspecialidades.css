@@ -36,6 +36,19 @@
     width: 295px;
 }
 
+
+@media(min-width: 800px) {
+    .CardEspecialidades {
+        margin: 0px 0px 7px 9px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .CardEspecialidades{
+        margin: 0px 0px 7px 0px;
+    }
+}
+
 @media(min-width: 1350px) {
    
     .CardEspecialidades{
