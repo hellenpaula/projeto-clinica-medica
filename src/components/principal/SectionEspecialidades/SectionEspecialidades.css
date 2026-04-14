@@ -69,7 +69,26 @@
     margin: 0px 6px;
 }
 
+.ContainerDots {
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        margin-top: 12px;
+}
 
+.Dot {
+     width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ccc;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.DotAtivo {
+    width: 18px;
+    background: #534AB7;
+}
 
 @media(min-width: 800px) {
     /* .SectionEspecialidades {
@@ -115,6 +134,8 @@
     .ContainerSetasCarrossel {
         display: none;
     }
+
+    
 }
 
 @media(min-width: 1350px) {

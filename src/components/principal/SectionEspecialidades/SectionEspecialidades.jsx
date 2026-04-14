@@ -9,7 +9,7 @@ import ImagemIconeOdonto from '../../../assets/icone/icone dente.png'
 
 import ImagemSeta from '../../../assets/icone/seta.png'
 
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 function SectionEspecialidades() {
 
@@ -61,15 +61,28 @@ function SectionEspecialidades() {
     ]
 
 
+    // const total = DadosCardsEspecialidades.length;
+    // const [currentIndex, setCurrentIndex] = useState(0);
+
+    // const handleScroll = () => {
+    // const larguraCard = carrossel.current.offsetWidth;
+    // const novoIndex = Math.round(carrossel.current.scrollLeft / larguraCard);
+    // setCurrentIndex(novoIndex);
+    // }
+
     const carrossel = useRef(null);
 
-    const ArrowLeftClick = (e) => {
+    function ArrowLeftClick(e) {
         e.preventDefault();
+        // const novoIndex = Math.max(currentIndex - 1, 0);
+        // setCurrentIndex(novoIndex);
         carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
     }
 
     const ArrowRightClick = (e) => {
         e.preventDefault();
+        // const novoIndex = Math.min(currentIndex + 1, total - 1);
+        // setCurrentIndex(novoIndex);
         carrossel.current.scrollLeft += carrossel.current.offsetWidth;
     }
 
@@ -79,7 +92,7 @@ function SectionEspecialidades() {
             <h3 className='TituloAreaTextoEspecialidade'>Especialidades</h3>
        
 
-            <div className="ContainerCardsAreaEspecialidades" ref={carrossel}>
+            <div className="ContainerCardsAreaEspecialidades" ref={carrossel} /* onScroll={handleScroll} */>
 
             {DadosCardsEspecialidades.map((dado) => (
                  <CardsEspecialidades 
@@ -99,6 +112,15 @@ function SectionEspecialidades() {
 
                 <button onClick={ArrowRightClick}><img src={ImagemSeta} alt="" className="SetaDireitaCarrossel" /></button>
             </div>
+
+            {/* <div className='ContainerDots'>
+                {DadosCardsEspecialidades.map((_, i) => (
+                <span 
+                key={i}
+                className={`Dot ${i === currentIndex ? 'DotAtivo': ''}`}>
+                </span>
+            ))}
+            </div> */}
 
             <div className="ContainerBotaoAreaEspecialidade">
                 <button className='BotaoEspecialidade'>
