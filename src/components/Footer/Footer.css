@@ -1,0 +1,80 @@
+
+
+.ContainerFooter {
+    background-color: #254E69;
+}
+
+.TextAreaFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    align-items: center;
+    padding: 20px 56px;
+    color: white;
+
+}
+
+.ContainerLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    gap: 12px;
+}
+
+.LogoFooter {
+    color: rgb(46 46 230);
+}
+
+
+
+.TituloLinksPagFooter, .TituloLinksSuporteFooter {
+    padding: 0px 0px 14px;
+}
+
+.ListaLinksPagFooter, .ListaLinksSuporteFooter {
+    
+    list-style: none;
+    text-align: center;
+}
+
+.ContainerLinksSuporteFooter {
+     text-align: center;
+}
+
+.ContainerLinksPagFooter li a, .ContainerLinksSuporteFooter li a {
+    text-decoration: none;
+    color: #ffffffcf;
+   
+   
+}  
+
+.ContainerLinksPagFooter li, .ContainerLinksSuporteFooter li {
+    margin: 0px 0px 15px;
+}
+
+
+@media(min-width: 800px) {
+    .TextAreaFooter {
+        /* display: flex; */
+        flex-direction: row;
+        padding: 94px 56px;
+        align-items: baseline;
+        justify-content: center;
+        gap: 0px 122px;
+    }
+
+    .ContainerLogo {
+        width: 17rem;
+        align-items: start;
+    }
+
+    .TituloLinksPagFooter, .TituloLinksSuporteFooter {
+        text-align: left;
+
+    }
+
+    .ListaLinksPagFooter, .ListaLinksSuporteFooter {
+        text-align: left;
+    }
+}

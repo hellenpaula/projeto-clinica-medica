@@ -15,6 +15,7 @@ import Contato from './pages/contato/Contato.jsx'
 // components:
 import Header from './components/Header/Header.jsx'
 
+
 import SectionHome from './components/principal/SectionHome/SectionHome.jsx'
 
 import SectionSobre from './components/principal/SectionSobre/SectionSobre.jsx'
@@ -24,6 +25,8 @@ import SectionEspecialidades from './components/principal/SectionEspecialidades/
 import SectionConquistas from './components/principal/SectionConquistas/SectionConquistas.jsx'
 
 import SectionExames from './components/principal/SectionExames/SectionExames.jsx'
+
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +43,7 @@ function App() {
       <SectionEspecialidades />
       <SectionConquistas />
       <SectionExames />
+      <Footer />
       
       <Routes>
 
