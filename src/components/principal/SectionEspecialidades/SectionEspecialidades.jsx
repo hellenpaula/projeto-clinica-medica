@@ -71,32 +71,57 @@ function SectionEspecialidades() {
     // }
 
     const carrossel = useRef(null);
+    const cardRef = useRef(null);
 
     function ArrowLeftClick(e) {
         e.preventDefault();
+
+        const larguraCard = cardRef.current.offsetWidth;
+        
+        const estilosContainer = window.getComputedStyle(carrossel.current);
+
+        const gap = parseInt(estilosContainer.gap);
+
+        const larguraScroll = larguraCard + gap;
         // const novoIndex = Math.max(currentIndex - 1, 0);
         // setCurrentIndex(novoIndex);
-        carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
+        carrossel.current.scrollLeft -= larguraScroll;
+        
+        // const novoIndex = Math.max(currentIndex - 1, 0);
+        // setCurrentIndex(novoIndex);
+        
     }
 
     const ArrowRightClick = (e) => {
         e.preventDefault();
+
+        const larguraCard = cardRef.current.offsetWidth;
+        const estilosContainer = window.getComputedStyle(carrossel.current);
+
+        const gap =  parseInt(estilosContainer.gap);
+
+        const larguraScroll =
+        larguraCard + gap;
+
+         carrossel.current.scrollLeft += larguraScroll;
+
         // const novoIndex = Math.min(currentIndex + 1, total - 1);
         // setCurrentIndex(novoIndex);
-        carrossel.current.scrollLeft += carrossel.current.offsetWidth;
+        
     }
 
 
     return(
-        <section className="SectionEspecialidades">
+        <section className="SectionEspecialidades" id='Especialidades'>
             <h3 className='TituloAreaTextoEspecialidade'>Especialidades</h3>
        
 
             <div className="ContainerCardsAreaEspecialidades" ref={carrossel} /* onScroll={handleScroll} */>
 
-            {DadosCardsEspecialidades.map((dado) => (
+            {DadosCardsEspecialidades.map((dado, index) => (
                  <CardsEspecialidades 
                  Id={dado.Id}
+                 ref={index === 0 ? cardRef : null}
                  background= {dado.background} 
                  ImagemIconeEspeciali={dado.ImagemIconeEspeciali}
                  TituloCardEspeciali = {dado.TituloCardEspeciali}
