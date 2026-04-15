@@ -17,15 +17,44 @@
 
 .ContainerCardsAreaExames {
     overflow-x: scroll;
+    scroll-behavior: smooth;
     width: 262px;
     display: flex;
     gap: 40px;
     justify-content: left;
     padding: 8px 0px 10px 10px;
-    margin: 0px 0px 94px;
+    margin: 0px 0px 36px;
     scrollbar-width:none;
 }
 
+
+.ContainerSetasCarrossel {
+    margin: 0px 0px 96px;
+}
+
+
+.ContainerSetasCarrossel button {
+    background: none;
+    border: none;
+}
+
+.SetaEsquerdaCarrossel, .SetaDireitaCarrossel {
+    width: 45px;
+    margin: 0px 6px;
+
+}
+
+.SetaEsquerdaCarrossel {
+    rotate: 180deg;
+}
+
+.SetaEsquerdaCarrossel:hover {
+    opacity: 0.7;
+}
+
+.SetaDireitaCarrossel:hover{
+    opacity: 0.7;
+}
 
 .ContainerBotaoAreaExames {
 
@@ -44,6 +73,14 @@
 .BotaoExames:hover {
     background-color: #16167aa5;
 }
+
+@media(min-width: 500px) {
+    .ContainerCardsAreaExames {
+        width: 466px;
+}
+}
+
+
 
 @media(min-width: 800px) {
     .ContainerCardsAreaExames{
