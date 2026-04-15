@@ -123,7 +123,7 @@ function SectionExames() {
                 ))}
             </div>
 
-            <div className="ContainerSetasCarrossel">
+            <div className="ContainerSetasCarrosselExames">
                 <button onClick={ArrowLeftClick}><img src={ImagemSeta} alt="" className="SetaEsquerdaCarrossel" /></button>
 
                 <button onClick={ArrowRightClick}><img src={ImagemSeta} alt="" className="SetaDireitaCarrossel" /></button>
