@@ -3,7 +3,7 @@
 .CardExames {
     background-color: white;
     width: 14rem;
-    height: 17rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +44,13 @@
     transition: 0.2s ;
 
 }
+
+@media(min-width: 500px) {
+    .CardExames {
+        width: 13rem;
+    }
+}
+
 
 @media(min-width: 800px) {
     .CardExames {
