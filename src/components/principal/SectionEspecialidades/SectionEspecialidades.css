@@ -69,6 +69,18 @@
     margin: 0px 6px;
 }
 
+.SetaEsquerdaCarrossel {
+    rotate: 180deg;
+}
+
+.SetaEsquerdaCarrossel:hover {
+    opacity: 0.7;
+}
+
+.SetaDireitaCarrossel:hover{
+    opacity: 0.7;
+}
+
 .ContainerDots {
         display: flex;
         gap: 6px;
