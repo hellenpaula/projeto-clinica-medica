@@ -1,7 +1,14 @@
 
+import Header from "../../components/Header/Header.jsx"
+
+
 function Contato() {
     return(
-        <p>Área contato</p>
+        <section className="SectionContato">
+            
+            <p>Área contato</p>
+            
+        </section>
     )
 }
 

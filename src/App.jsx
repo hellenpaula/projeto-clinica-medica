@@ -38,19 +38,25 @@ function App() {
     {/* ligar ao header component */}
     <Router>
       <Header />
-      <SectionHome />
-      <SectionSobre />
-      <SectionEspecialidades />
-      <SectionConquistas />
-      <SectionExames />
-      <Footer />
       
       <Routes>
 
-        <Route path='/contato' element={<Contato />}/>
-        <Route path='agendamento' element={<Agendamento />} />
-      </Routes>
+        <Route path='/' element={
+          <>
+            <SectionHome />
+            <SectionSobre />
+            <SectionEspecialidades />
+            <SectionConquistas />
+            <SectionExames />
+          </>
+        }
+        />
+          
 
+        <Route path='/contato' element={<Contato />}/>
+        {/* <Route path='agendamento' element={<Agendamento />} /> */}
+      </Routes>
+      <Footer />
     </Router>
 
     {/* resto da página */}
