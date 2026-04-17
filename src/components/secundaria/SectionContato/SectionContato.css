@@ -1,0 +1,160 @@
+
+.SectionContato {
+    background-color: rgb(239, 239, 239);
+    padding: 0px 16px;
+}
+
+.TituloPrincipalSectionContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TituloSectionContato {
+    font-size: 34px;
+    color: #383880;
+    padding: 90px 0px 34px;
+    text-align: center;
+}
+
+.ParagrafoPrincipalSectionContato {
+    width: 309px;
+    text-align: center;
+}
+
+.ContainerConteudoSectionContato {
+    display: flex;
+    justify-content: center;
+    padding: 74px 0px;
+    flex-wrap: wrap;
+}
+
+.TituloAreaTextoSectionContato {
+    font-size: 20px;
+}
+
+.ParagrafoAreaTextoSectionContato {
+    padding: 10px 0px 35px;;
+    width: 309px;
+
+}
+
+.ContainerCardsContatos {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.LinhaDivisoria {
+    margin: 27px 0px;
+}
+
+.TituloAreaRedes {
+    font-size: 20px;
+
+}
+
+.IconesRedesSectionContato {
+    margin: 30px 0px;
+    display: flex;
+    gap: 13px;
+}
+
+.DivIconeRede  {
+    background-color: rgb(180, 180, 255);
+    border-radius: 50%;
+    padding: 8px;
+       
+}
+
+.DivIconeRede img {
+    width: 30px;
+}
+
+
+.AreaFormularioSectionContato{
+    /* background-color: rgb(124, 124, 255); */
+    width: 400px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+
+
+
+@media(min-width: 800px) {
+    
+.TituloPrincipalSectionContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TituloSectionContato {
+    font-size: 34px;
+    color: #383880;
+    padding: 90px 0px 34px;
+    text-align: center;
+}
+
+.ParagrafoPrincipalSectionContato {
+    width: 421px;
+    text-align: center;
+}
+
+.ContainerConteudoSectionContato {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 74px 0px;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.TituloAreaTextoSectionContato {
+    font-size: 20px;
+}
+
+.ParagrafoAreaTextoSectionContato {
+    padding: 10px 0px;
+    width: 327px;
+}
+
+.ContainerCardsContatos {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.LinhaDivisoria {
+    margin: 27px 0px;
+}
+
+.TituloAreaRedes {
+    font-size: 20px;
+
+}
+
+.IconesRedesSectionContato {
+    margin: 30px 0px;
+    display: flex;
+    gap: 13px;
+}
+
+.DivIconeRede  {
+    background-color: rgb(180, 180, 255);
+    border-radius: 50%;
+    padding: 8px;
+       
+}
+
+.DivIconeRede img {
+    width: 30px;
+}
+
+
+.AreaFormularioSectionContato{
+    /* background-color: rgb(124, 124, 255); */
+    width: 400px;
+    height: 500px;
+}
+}

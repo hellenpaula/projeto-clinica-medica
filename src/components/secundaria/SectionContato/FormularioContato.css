@@ -1,0 +1,71 @@
+
+.ContainerFormularioContato{
+    background-color: rgb(124, 124, 255);
+    padding: 30px 45px;
+    height: 456px;
+}
+
+.TituloFormularioContato {
+    font-size: 20px;
+    margin: 0px 0px 16px 0px;
+}
+
+.FormGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.LabelFormularioContato {
+    font-weight: 600;
+    margin: 5px 0px 1px;
+}
+
+.FormGroup input {
+    padding: 9px;
+    border-radius: 8px;
+    border: 1px solid #808080d1;
+}
+
+
+.FooterFormulario {
+    display: flex;
+    margin: 22px 0px;
+    justify-content: space-between;
+}
+
+.CheckboxGroup {
+    /* margin: 22px 0px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+}
+
+.CheckboxGroup input {
+    font: inherit;
+    width:  1.1em;
+    height: 1.15em;
+    transform: translateY(-0.075em);
+    /* align-self: center; */
+}
+
+/* .CheckboxGroup input::checkmark {
+    color: rgb(54, 17, 23);
+} */
+.CheckboxGroup label {
+    font-size: 13px;
+    width: 146px;
+}
+
+.SubmitBtn {
+    background: #16167ab3;
+    color: white;
+    padding: 11px 30px;
+    border: none;
+    border-radius: 23px;
+    font-size: 13px;
+}
+
+.SubmitBtn:hover {
+    background-color: #16167aa5;
+}
