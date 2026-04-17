@@ -5,6 +5,8 @@ import CardsContato from '../../secundaria/SectionContato/CardsContato'
 
 import FormularioContato from './FormularioContato.jsx'
 
+import MapaContato from '../../secundaria/SectionContato/MapaContato.jsx'
+
 // imagens:
 import IconeLocalizacao from '../../../assets/icone/location.png'
 
@@ -102,6 +104,12 @@ function SectionContato() {
                         <FormularioContato />
                 </div>
             </div>
+
+            
+            <div className="AreaMapaContato">
+                        <MapaContato />
+            </div>
+
         </section>
     )
 }
