@@ -78,21 +78,21 @@ function SectionContato() {
                         </h4>
 
                         <div className="IconesRedesSectionContato">
-                        <div className="DivIconeRede">
+                        <button className="DivIconeRede">
                             <img src={IconeTelefone} alt="" />
-                        </div>
+                        </button>
 
-                        <div className="DivIconeRede">
+                        <button className="DivIconeRede">
                             <img src={IconeTelefone} alt="" />
-                        </div>
+                        </button>
 
-                        <div className="DivIconeRede">
+                        <button className="DivIconeRede">
                             <img src={IconeTelefone} alt="" />
-                        </div>
+                        </button>
 
-                        <div className="DivIconeRede">
+                        <button className="DivIconeRede">
                             <img src={IconeTelefone} alt="" />
-                        </div>
+                        </button>
                         
                         
                         </div>

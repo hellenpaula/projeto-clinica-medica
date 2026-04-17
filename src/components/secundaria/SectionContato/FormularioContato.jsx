@@ -130,7 +130,7 @@ function FormularioContato() {
 
 
     return(
-        <form className="ContainerFormularioContato" onSubmit={handleSubmit}>
+        <form className="ContainerFormularioContato" onSubmit={handleSubmit} autoComplete='off'>
             <h4 className="TituloFormularioContato">
                 Envie sua mensagem
             </h4>
@@ -164,6 +164,7 @@ function FormularioContato() {
                 required
                 placeholder="Seu cpf 123.456.789-00"
                 className={cpfError ? 'input-error' : ''}
+                autoComplete='new-password'
                 />
                 {cpfError && <span className="error-text" style={{ color:'red', fontSize: '14px', marginTop: '5px', display:'block' }}>{cpfError}</span>}
 
