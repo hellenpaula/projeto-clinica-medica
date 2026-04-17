@@ -1,0 +1,17 @@
+
+.CardContato {
+    display: flex;
+    gap: 10px;
+}
+
+.DivIconeCardContato {
+    background-color: rgb(180, 180, 255);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.IconeCardContato {
+    width: 30px;
+    
+
+}
