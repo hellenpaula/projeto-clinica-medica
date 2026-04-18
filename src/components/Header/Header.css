@@ -50,7 +50,8 @@
 }
 
 .ContainerListaMenu li:hover {
-    background: rgba(212, 236, 242, 0.277);
+    /* background: rgba(212, 236, 242, 0.277); */
+    background: rgba(17, 81, 164, 0.153);
     padding: 3px 8px;
     border-radius: 17px;
 }
