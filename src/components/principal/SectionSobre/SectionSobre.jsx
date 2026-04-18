@@ -5,12 +5,14 @@ import CardsSobre from './CardsSobre.jsx'
 
 import ImgSectionSobre from '../../../assets/img/img sobre médica paciente.jpg'
 
+import ImgMaletaMedico from '../../../assets/icone/maleta medico.png'
+
 function SectionSobre() {
 
     const DadosCardSobre = [
         {
             id: 1,
-            icon: "fa-solid fa-briefcase-medical" ,
+            icon: ImgMaletaMedico,
             titulo: "24 Hour Healthcare Services",
             paragrafo: "Call out a feature, benefit, or value of your site or product that can stand on its own."
         },
