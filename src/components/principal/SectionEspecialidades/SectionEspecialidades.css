@@ -28,30 +28,35 @@
     max-width: 311px;
     margin: 0px 0px 61px;
     padding: 10px 0px;
+    scrollbar-width: none;
 
 }
 
 
 .TituloAreaTextoEspecialidade {
-    font-size: 34px;
-    color: #383880;
+    font-size: 35px;
+    color: rgb(0 115 162);
     padding: 90px 0px 117px;
     text-align: center;
+    font-family: "Inter";
 }
 
 
 .BotaoEspecialidade {
-    background: #16167ab3;
+    background: rgb(31 137 180);
     color: white;
-    padding: 13px 30px;
+    padding: 17px 18px;
     border: none;
     border-radius: 9px;
-    font-size: 14px;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins';
 
 }
 
 .BotaoEspecialidade:hover {
-    background-color: #16167aa5;
+    background-color: rgb(29, 122, 158);
+    transition: 0.3s ease-in-out;
 }
 
 .ContainerSetasCarrossel {
@@ -118,6 +123,10 @@
         max-width: 39rem;
         /* scrollbar-width: none; */
         /* flex-wrap: wrap; */
+    }
+
+    .BotaoEspecialidade {
+        padding: 17px 30px;
     }
 }
 
