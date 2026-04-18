@@ -4,8 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(196, 196, 196, 0.788);
-    padding: 0px 0px 25px;
+
+    background: white;
+	padding: 21px 0px;
+
+
+    /* background-color: rgba(196, 196, 196, 0.788);
+    padding: 0px 0px 25px; */
 
     
 
@@ -15,25 +20,51 @@
 
 
 .LogoHeader {
-    color: rgb(61, 61, 147);
+    color:  rgb(17 81 164);
     margin: 34px 0px 0px;
 
-    @media(min-width: 754px) {
+    font-family: "Inter";
+	font-weight: 700;
+	font-size: 34px;
+
+    /* @media(min-width: 754px) {
     
 
-    }
+    } */
 }
 
 .ContainerListaMenu {
     list-style: none;
     display: flex;
-    gap: 14px;
+    gap: 4px;
     margin: 16px 0px 0px;
+    flex-wrap: wrap;
+    padding: 0px 22px;
+    justify-content: center;
+}
+
+.ContainerListaMenu li {
+    /* background: rgb(212 236 242 / 53%); */
+    padding: 3px 8px;
+    border-radius: 17px;
+}
+
+.ContainerListaMenu li:hover {
+    background: rgba(212, 236, 242, 0.277);
+    padding: 3px 8px;
+    border-radius: 17px;
 }
 
 .ItemListaMenu {
     text-decoration: none;
-    color: rgb(61, 61, 147);
+	color: rgb(13 13 13 / 79%);
+	font-family: "Poppins";
+	font-size: 17px;
+    
+
+    /* color: rgb(61, 61, 147); */
+
+
 }
 
 
@@ -42,17 +73,21 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 31px 0px;
+        padding: 27px 0px;
         gap: 93px;
     }
 
     .LogoHeader {
-        margin: 0px 0px 0px;
+        margin: 0px 0px 0px 33px;
     }
-        
+       
+    
+    .ContainerListaMenu {
+        margin: 9px 0px 0px
+    }
 
     .ItemListaMenu {
-        font-size: 19px;
+        /* font-size: 19px; */
     }
 
 }
@@ -68,18 +103,17 @@
 
     .LogoHeader {
         margin: 7px 0px 0px 128px;
-        font-size: 40px;
+        font-size: 37px;
     }
        
     .ContainerListaMenu {
-        margin: 16px 118px 0px 0px;
+        margin: 16px 0px 0px 0px;
+        gap: 23px;
+        padding: 0px 61px 0px 0px;
     }
 
     .ItemListaMenu {
-        font-size: 20px;
+        font-size: 19px;
     }
 
-    .ContainerListaMenu {
-        gap: 50px;
-    }
 }
