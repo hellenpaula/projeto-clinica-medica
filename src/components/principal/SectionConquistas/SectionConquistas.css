@@ -1,4 +1,8 @@
 
+.SectionConquistas {
+    background: #eeeeee61;
+}
+
 .ContainerCardsAreaConquistas {
     display: flex;
     align-items: center;
