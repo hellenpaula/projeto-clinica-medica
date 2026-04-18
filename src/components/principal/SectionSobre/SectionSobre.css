@@ -24,7 +24,8 @@
     font-family: "Inter";
     font-size: 33px;
     /* color: rgb(17 81 164); */
-    color: rgb(0 115 162);;
+    /* color: rgb(0 115 162);; */
+    color: rgb(17 81 164);
     padding: 0px 0px 13px;
     text-align: center;
 }
@@ -51,7 +52,7 @@
     margin: 101px 0px 100px;
     align-self: center;
     /* background-color: rgb(14 79 164 / 34%); */
-    background-color: rgb(212, 236, 242);
+    background-color: rgb(8 76 164 / 16%);
     /* border-radius: 13% 1%; */
     padding: 37px 0px 0px 42px;
     /* width: 18.6rem; */
