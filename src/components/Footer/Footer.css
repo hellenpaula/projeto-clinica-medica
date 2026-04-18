@@ -1,7 +1,7 @@
 
 
 .ContainerFooter {
-    background-color: #254E69;
+    background-color: #283a46;
 }
 
 .TextAreaFooter {
@@ -23,9 +23,14 @@
 }
 
 .LogoFooter {
-    color: rgb(46 46 230);
+    /* color: rgb(0 115 162); */
+    color: rgb(17 81 164);
+    font-family: "Inter";
 }
 
+.ParagrafoLogoFooter {
+    color: #ffffffcf;
+}
 
 
 .TituloLinksPagFooter, .TituloLinksSuporteFooter {
@@ -45,6 +50,20 @@
 .ContainerLinksPagFooter li a, .ContainerLinksSuporteFooter li a {
     text-decoration: none;
     color: #ffffffcf;
+   
+   
+} 
+
+.ContainerLinksPagFooter li a:hover {
+    color: #ffffff81;
+   
+   
+}  
+
+ 
+.ListaLinksSuporteFooter li a:hover {
+    text-decoration: none;
+    color: #ffffff81;
    
    
 }  
