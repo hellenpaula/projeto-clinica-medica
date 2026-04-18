@@ -6,14 +6,15 @@
     width: 338px;
 }
 
-.fa-solid, .fa-regular {
-    background: rgb(212, 236, 242);
-    background: rgb(8 76 164 / 16%);
 
-    height: 26px;
-    padding: 18px 45px 45px 15px; 
+ .CardSobre img  {
+    /* background: rgb(212, 236, 242); */
+    background: rgb(8 76 164 / 16%);
+    height: 60px;
+    padding: 10px 9px 9px 9px;
     font-size: 31px;
     border-radius: 6px;
+    width: 110px;
 }
 
 .tituloTextoCardSobre {

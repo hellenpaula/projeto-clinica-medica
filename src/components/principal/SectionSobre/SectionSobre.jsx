@@ -7,6 +7,12 @@ import ImgSectionSobre from '../../../assets/img/img sobre médica paciente.jpg'
 
 import ImgMaletaMedico from '../../../assets/icone/maleta medico.png'
 
+import ImgAward from '../../../assets/icone/award 2.png'
+
+import ImgHospital from '../../../assets/icone/hospital.png'
+
+
+
 function SectionSobre() {
 
     const DadosCardSobre = [
@@ -18,13 +24,13 @@ function SectionSobre() {
         },
         {
             id: 2,
-            icon: "fa-solid fa-award",
+            icon: ImgAward,
             titulo: "International Standards",
             paragrafo: "Call out a feature, benefit, or value of your site or product that can stand on its own."
         },
         {
             id: 3,
-            icon: "fa-regular fa-hospital",
+            icon: ImgHospital,
             titulo: "Center of Excellence",
             paragrafo: "Call out a feature, benefit, or value of your site or product that can stand on its own."
         }

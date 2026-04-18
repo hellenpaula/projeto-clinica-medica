@@ -5,7 +5,7 @@ function CardsSobre(props) {
     return(
         <div className="CardSobre">
             {/* icone */}
-            <i className={props.icon}></i>
+            <img src= {props.icon} alt=''></img>
 
             {/* div.textoCardSobre */}
             {/* h1 + p */}
