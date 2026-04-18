@@ -11,11 +11,22 @@
 }
 
 .ValorCardConquistas {
-    font-size: 32px;
+    font-size: 29px;
     padding: 16px 0px 12px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: rgb(0 115 162);
 }
 
 
 .ParagrafoCardConquistas {
     font-size: 17px;
+    color: #545454;
+}
+
+
+@media(min-width: 800px) {
+    .ValorCardConquistas {
+        font-size: 32px;
+    }
 }
