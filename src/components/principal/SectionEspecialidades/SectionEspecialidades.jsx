@@ -112,7 +112,7 @@ function SectionEspecialidades() {
 
 
     return(
-        <section className="SectionEspecialidades" id='Especialidades'>
+        <section className="SectionEspecialidades" id='Especialidade'>
             <h3 className='TituloAreaTextoEspecialidade'>Especialidades</h3>
        
 
