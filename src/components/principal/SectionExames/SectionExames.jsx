@@ -9,6 +9,20 @@ import CardExames from './CardsExames.jsx'
 // imagem
 import ImagemSangue from '../../../assets/icone/icone sangue.png'
 
+import ImagemRaioX from '../../../assets/icone/raio x.png'
+
+import ImagemEletro from '../../../assets/icone/eletrocardiograma.png'
+
+import ImagemUltrassom from '../../../assets/icone/ultrassom.png'
+
+import ImagemRessonancia from '../../../assets/icone/ressonancia.png'
+
+import ImagemHolter from '../../../assets/icone/holter.png'
+
+import ImagemEstomago from '../../../assets/icone/estomago.png'
+
+import ImagemTomografia from '../../../assets/icone/tomografia.png'
+
 import ImagemSeta from '../../../assets/icone/seta.png'
 
 
@@ -21,47 +35,50 @@ function SectionExames() {
             Id: 1,
             ImagemIconeExames: ImagemSangue,
             TituloCardExames: 'Coleta de sangue',
-            background: 'rgba(15, 107, 187, 0.14)'
+            background: 'rgba(15, 107, 187, 0.14)',
+            className: 'icon1'
         },
         {
             Id: 2,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemRaioX,
             TituloCardExames: 'Raio-X',
-            background: 'rgba(28, 215, 3, 0.19)'
+            background: 'rgba(28, 215, 3, 0.19)',
+            className: 'icon2'
         },
         {
             Id: 3,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemEletro,
             TituloCardExames: 'Eletrocardiograma',
             background: 'rgba(215, 28, 3, 0.12)'
         },
         {
             Id: 4,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemUltrassom,
             TituloCardExames: 'Ultrassom',
-            background: 'rgba(250, 232, 76, 0.345)'
+            background: 'rgba(255, 252, 74, 0.66)'
+            // 'rgba(238, 124, 49, 0.55)'
         },
         {
             Id: 5,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemRessonancia,
             TituloCardExames: 'Ressonância',
             background:'rgba(237, 51, 203, 0.173)'
         },
         {
             Id: 6,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemHolter,
             TituloCardExames: 'Holter e MAPA',
             background:'rgba(11 234 221 / 9%)'
         },
         {
             Id: 7,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemEstomago,
             TituloCardExames: 'Endoscopia',
-            background:'rgba(238 255 73 / 42%)'
+            background: 'hsla(23, 90%, 60%, 0.62)'
         },
         {
             Id: 8,
-            ImagemIconeExames: ImagemSangue,
+            ImagemIconeExames: ImagemTomografia,
             TituloCardExames: 'Tomografia',
             background:'rgba(96 125 139 / 39%)'
         },
@@ -128,6 +145,7 @@ function SectionExames() {
                     ImagemIconeExames = {dado.ImagemIconeExames}
                     TituloCardExames = {dado.TituloCardExames}
                     background = {dado.background}
+                    className = {dado.className}
                     />
                 ))}
             </div>

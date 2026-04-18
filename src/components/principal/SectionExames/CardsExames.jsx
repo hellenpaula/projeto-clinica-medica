@@ -6,7 +6,11 @@ import { forwardRef } from 'react';
 const CardsExames = forwardRef((props, ref) => {
     return(
         <div className="CardExames" ref={ref}>
-            <img src={props.ImagemIconeExames} alt="" className="ImgIconeExames" style={{backgroundColor: props.background}} />
+            <div className="ContainerIcone">
+                
+                <img src={props.ImagemIconeExames} alt="" className="ImgIconeExames"
+                style={{backgroundColor: props.background}} id={props.Id}/>
+            </div>
             <h4 className="TituloCardExames">{props.TituloCardExames}</h4>
         </div>
     )

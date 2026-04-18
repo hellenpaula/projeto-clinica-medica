@@ -13,14 +13,35 @@
     border: 2px solid #0045ff52;
     box-shadow: 1px 1px 10px #00000017;
     transition: 0.3s ease-in-out;
+
+    
+
 }
+
+/* .CardExames::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #6c63ff;
+
+    transition: all 0.4s ease;
+    z-index: 0;
+} */
+
+/* .CardExames:hover::before {
+    left: 0;
+}
+ */
+
 
 .CardExames:hover {
-    /* transform: translateY(-5px); */
-    transform: scale(102%);
-    transition: 0.3s ease-in-out;
-}
-
+    transform: translateY(-5px);
+    /* /* transform: scale(102%); */
+    transition: 0.3s ease-in-out; 
+} 
 
 .TituloCardExames {
     display: flex;
@@ -31,20 +52,83 @@
     font-size: 19px;
     width: 10rem;
     text-align: center;
+    font-weight: 600;
+    font-family: "Inter";
 }
+
+
+.ContainerIcone {
+    width: 4.6rem;
+    height: 4.6rem;
+    background-color: #0000ff17;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.ContainerIcone:hover {
+    /* background-color: transparent; */
+    /* filter: brightness(0.1); */
+}
+
+/* .ContainerIcone::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: #ce2225;
+
+    transition: 0.4s ease;
+    z-index: 0;
+} */
+
+/* .ContainerIcone:hover::before {
+    left: 0;
+    background-color: transparent;
+    background: #ce2225;
+} */
 
 .ImgIconeExames {
     width: 4.6rem;
-    background-color: #0000ff17;
+    /* background-color: #0000ff17; */
     padding: 14px 13px 15px;
-    border-radius: 55%;
+    /* border-radius: 55%; */
+    
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+
+    /* position: relative; */
+    /* overflow: hidden; */
+
+    /* position: relative;
+    z-index: 1; */
 }
 
 .ImgIconeExames:hover {
-    background-color: #e7250b;
-    transition: 0.2s ;
+    /* background-color: #ce2225; */
+    /* transition: 0.2s ; */
 
 }
+
+.ContainerIcone:hover .ImgIconeExames {
+    transform: scale(1.1);
+    /* filter: brightness(0) invert(1); */
+}
+
+/* #3 {
+
+} */
+
+
+
 
 @media(min-width: 500px) {
     .CardExames {
