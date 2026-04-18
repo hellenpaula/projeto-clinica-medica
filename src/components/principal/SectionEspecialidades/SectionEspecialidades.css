@@ -35,7 +35,7 @@
 
 .TituloAreaTextoEspecialidade {
     font-size: 35px;
-    color: rgb(0 115 162);
+    color: rgb(17 81 164);
     padding: 90px 0px 117px;
     text-align: center;
     font-family: "Inter";
@@ -43,7 +43,7 @@
 
 
 .BotaoEspecialidade {
-    background: rgb(31 137 180);
+    background: rgb(17 81 164);
     color: white;
     padding: 17px 18px;
     border: none;
@@ -55,7 +55,7 @@
 }
 
 .BotaoEspecialidade:hover {
-    background-color: rgb(29, 122, 158);
+    background-color: rgba(17, 81, 164, 0.821);
     transition: 0.3s ease-in-out;
 }
 
