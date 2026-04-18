@@ -9,10 +9,11 @@
 
 
 .TituloAreaTextoExames {
-    font-size: 34px;
-    color: #383880;
+   font-size: 31px;
+    color: rgb(0 115 162);
     padding: 90px 0px 117px;
     text-align: center;
+    font-family: "Inter";
 }
 
 .ContainerCardsAreaExames {
@@ -61,17 +62,19 @@
 }
 
 .BotaoExames {
-    background: #16167ab3;
+    background: rgb(31 137 180);
     color: white;
     padding: 13px 30px;
     border: none;
     border-radius: 9px;
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'Poppins';
 
 }
 
 .BotaoExames:hover {
-    background-color: #16167aa5;
+    background-color: rgb(29, 122, 158);
+    transition: 0.3s ease-in-out;
 }
 
 @media(min-width: 500px) {
@@ -87,5 +90,13 @@
         width: 753px;
         gap: 31px;
     }   
+
+    .TituloAreaTextoExames {
+        font-size: 35px;
+    }
+
+    .BotaoExames {
+        padding: 17px 30px;
+    }
    
 }

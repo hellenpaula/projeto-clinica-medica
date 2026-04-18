@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 78px 0px 78px;
+    padding: 40px 78px 0px 78px;
     border-radius: 10px;
     border: 2px solid #0045ff52;
     box-shadow: 1px 1px 10px #00000017;
@@ -30,17 +30,18 @@
     padding: 36px 0px;
     font-size: 19px;
     width: 10rem;
+    text-align: center;
 }
 
 .ImgIconeExames {
-    width: 5rem;
+    width: 4.6rem;
     background-color: #0000ff17;
     padding: 14px 13px 15px;
     border-radius: 55%;
 }
 
 .ImgIconeExames:hover {
-    background-color: #d13f2c44;
+    background-color: #e7250b;
     transition: 0.2s ;
 
 }

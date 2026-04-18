@@ -20,42 +20,50 @@ function SectionExames() {
         {
             Id: 1,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Coleta de sangue'
+            TituloCardExames: 'Coleta de sangue',
+            background: 'rgba(15, 107, 187, 0.14)'
         },
         {
             Id: 2,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Raio-X'
+            TituloCardExames: 'Raio-X',
+            background: 'rgba(28, 215, 3, 0.19)'
         },
         {
             Id: 3,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Eletrocardiograma'
+            TituloCardExames: 'Eletrocardiograma',
+            background: 'rgba(215, 28, 3, 0.12)'
         },
         {
             Id: 4,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Ultrassom'
+            TituloCardExames: 'Ultrassom',
+            background: 'rgba(250, 232, 76, 0.345)'
         },
         {
             Id: 5,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Ressonância'
+            TituloCardExames: 'Ressonância',
+            background:'rgba(237, 51, 203, 0.173)'
         },
         {
             Id: 6,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Holter e MAPA'
+            TituloCardExames: 'Holter e MAPA',
+            background:'rgba(11 234 221 / 9%)'
         },
         {
             Id: 7,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Endoscopia'
+            TituloCardExames: 'Endoscopia',
+            background:'rgba(238 255 73 / 42%)'
         },
         {
             Id: 8,
             ImagemIconeExames: ImagemSangue,
-            TituloCardExames: 'Tomografia'
+            TituloCardExames: 'Tomografia',
+            background:'rgba(96 125 139 / 39%)'
         },
        
     ]
@@ -119,6 +127,7 @@ function SectionExames() {
                     ref= {index === 0 ? cardRef : null}
                     ImagemIconeExames = {dado.ImagemIconeExames}
                     TituloCardExames = {dado.TituloCardExames}
+                    background = {dado.background}
                     />
                 ))}
             </div>
