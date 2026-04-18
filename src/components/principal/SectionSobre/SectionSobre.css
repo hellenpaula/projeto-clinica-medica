@@ -1,7 +1,7 @@
 
 
 .SectionSobre {
-    background-color: rgba(255,255,255,0.63);
+    background-color: #eeeeee61;
     /* color: rgba(16, 99, 172, 0.692); */
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 .ContainerAreaSobre {
     display: flex;
     flex-direction: column;
-    padding: 102px 32px;
+    padding: 102px 32px 158px;
     align-items: center;
     /* order: 2; */
     /* padding: 0px 20px; */
@@ -21,17 +21,20 @@
 }
 
 .TituloIntroducaoAreaSobre {
-    font-size: 34px;
-    color: #383880;
+    font-family: "Inter";
+    font-size: 33px;
+    /* color: rgb(17 81 164); */
+    color: rgb(31 137 180);
     padding: 0px 0px 13px;
     text-align: center;
 }
 
 
 .ParagrafoIntroducaoAreaSobre {
-    font-size: 20px;
+    font-size: 17px;
     max-width: 400px;
     text-align: start;
+    color: #545454;
 }
 
 .ContainerCardsAreaSobre {
@@ -47,7 +50,8 @@
 .ContainerImgSectionSobre {
     margin: 101px 0px 100px;
     align-self: center;
-    background-color: #5983cca3;
+    /* background-color: rgb(14 79 164 / 34%); */
+    background-color: rgb(212, 236, 242);
     /* border-radius: 13% 1%; */
     padding: 37px 0px 0px 42px;
     /* width: 18.6rem; */
@@ -69,7 +73,7 @@
         height: 28rem;
         border-radius: 149px 146px 6px 6px;
         width: 17rem;
-        border: 1px solid #5f86c8;
+        border: 1px solid rgb(46 190 226);
         padding: 15px 0px 0px 11px;
         object-fit: cover
 
@@ -95,20 +99,18 @@
         /* align-items: center; */
 }
 
-    .ParagrafoIntroducaoAreaSobre {
-        font-size: 20px;
+    .ParagrafoIntroducaoAreaSobre {
+        /* font-size: 20px; */
         max-width: 400px;
         text-align: start;
+        padding: 0px 0px 76px;
 }
 
     .TituloIntroducaoAreaSobre {
         text-align: start;
     }
 
-    .CardSobre {
-        width: 357px;
-    }
-
+    
     .ContainerCardsAreaSobre {
         order: 3;
         display: flex;
@@ -133,7 +135,7 @@
         height: 25rem;
         border-radius: 149px 146px 6px 6px;
         width: 16rem;
-        border: 1px solid #5f86c8;
+        border: 1px solid rgb(46 190 226);
         padding: 15px 0px 0px 11px;
         object-fit: cover
 
@@ -142,9 +144,6 @@
 
 @media(min-width: 1024px) {
 
-    .CardSobre {
-        width: 369px;
-    }
 
     .ContainerAreaSobre {
         gap: 0px 0px;
@@ -154,6 +153,12 @@
     .IntroducaoAreaTextoSobre {
         margin: 0px 0px 0px 0px; 
         width: 26rem;
+    }
+
+    .ParagrafoIntroducaoAreaSobre {
+        font-size: 18px;
+        /* max-width: 400px;
+        text-align: start; */
     }
 
     .ContainerCardsAreaSobre {
@@ -174,7 +179,7 @@
         height: 29rem;
         border-radius: 149px 146px 6px 6px;
         width: 18rem;
-        border: 1px solid #5f86c8;
+        border: 1px solid rgb(46 190 226);
         padding: 15px 0px 0px 11px;
         object-fit: cover
 

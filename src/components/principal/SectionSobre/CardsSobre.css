@@ -3,11 +3,13 @@
 .CardSobre {
     display: flex;
     gap: 16px;
-    width: 400px;
+    width: 338px;
 }
 
 .fa-solid, .fa-regular {
-    background: #0000ff54;
+    background: rgb(212, 236, 242);
+    /* background: rgb(14 79 164 / 34%); */
+
     height: 26px;
     padding: 18px 45px 45px 15px; 
     font-size: 31px;
@@ -16,8 +18,18 @@
 
 .tituloTextoCardSobre {
     font-size: 18px;
+    /* color: rgb(17 81 164); */
+    color: rgb(31 137 180);;
 }
 
 .paragrafoTextoCardSobre {
     font-size: 17px;
+    color: #545454;
+}
+
+@media(min-width: 800px) {
+    .CardSobre {
+        width: 357px;
+    }
+
 }
