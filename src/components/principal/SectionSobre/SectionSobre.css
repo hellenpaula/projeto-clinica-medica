@@ -63,6 +63,9 @@
     width: 21rem;
     border-radius: 22px 22px;
     height: 26.4rem;
+    box-shadow:1px 1px 10px #00000017;
+    border: 1px solid #0000ff1c;
+
 }
 
 .ImgSectionSobre {
