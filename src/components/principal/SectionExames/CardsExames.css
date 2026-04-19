@@ -69,6 +69,8 @@
 
     position: relative;
     overflow: hidden;
+    box-shadow: 1px 1px 10px #00000014;
+    border: 1px solid #4c4c4c24;
 }
 
 .ContainerIcone:hover {
