@@ -24,7 +24,7 @@
     margin: 34px 0px 0px;
 
     font-family: "Inter";
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 34px;
 
     /* @media(min-width: 754px) {
@@ -121,7 +121,7 @@
 
     .LogoHeader {
         margin: 7px 0px 0px 0px;
-        font-size: 37px;
+        font-size: 34px;
     }
        
     .ContainerHeader img {
