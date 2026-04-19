@@ -14,32 +14,12 @@
     box-shadow: 1px 1px 10px #00000017;
     transition: 0.3s ease-in-out;
 
-    
-
 }
 
-/* .CardExames::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    background-color: #6c63ff;
-
-    transition: all 0.4s ease;
-    z-index: 0;
-} */
-
-/* .CardExames:hover::before {
-    left: 0;
-}
- */
 
 
 .CardExames:hover {
     transform: translateY(-5px);
-    /* /* transform: scale(102%); */
     transition: 0.3s ease-in-out; 
 } 
 
@@ -73,61 +53,22 @@
     border: 1px solid #4c4c4c24;
 }
 
-.ContainerIcone:hover {
-    /* background-color: transparent; */
-    /* filter: brightness(0.1); */
-}
-
-/* .ContainerIcone::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    background: #ce2225;
-
-    transition: 0.4s ease;
-    z-index: 0;
-} */
-
-/* .ContainerIcone:hover::before {
-    left: 0;
-    background-color: transparent;
-    background: #ce2225;
-} */
 
 .ImgIconeExames {
     width: 4.6rem;
-    /* background-color: #0000ff17; */
     padding: 14px 13px 15px;
-    /* border-radius: 55%; */
     
     position: relative;
     z-index: 1;
     transition: 0.3s;
 
-    /* position: relative; */
-    /* overflow: hidden; */
-
-    /* position: relative;
-    z-index: 1; */
 }
 
-.ImgIconeExames:hover {
-    /* background-color: #ce2225; */
-    /* transition: 0.2s ; */
-
-}
 
 .ContainerIcone:hover .ImgIconeExames {
     transform: scale(1.1);
-    /* filter: brightness(0) invert(1); */
 }
 
-/* #3 {
-
-} */
 
 
 

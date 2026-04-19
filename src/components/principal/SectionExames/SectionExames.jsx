@@ -56,7 +56,6 @@ function SectionExames() {
             ImagemIconeExames: ImagemUltrassom,
             TituloCardExames: 'Ultrassom',
             background: 'rgba(255, 252, 74, 0.66)'
-            // 'rgba(238, 124, 49, 0.55)'
         },
         {
             Id: 5,
@@ -100,15 +99,9 @@ function SectionExames() {
         const gap = parseInt(estilosContainer.gap);
 
         const larguraScroll = larguraCard + gap;
-        // const novoIndex = Math.max(currentIndex - 1, 0);
-        // setCurrentIndex(novoIndex);
+
         carrossel.current.scrollLeft -= larguraScroll;
 
-
-        // setTimeout(() => {
-        //     e.currentTarget.style.opacity = "0.5";
-        // }, 200);
-        
     }
 
     const ArrowRightClick = (e) => {
@@ -122,13 +115,8 @@ function SectionExames() {
         const larguraScroll =
         larguraCard + gap;
 
-        // const novoIndex = Math.min(currentIndex + 1, total - 1);
-        // setCurrentIndex(novoIndex);
         carrossel.current.scrollLeft += larguraScroll;
 
-        // setTimeout(() => {
-        //     e.currentTarget.style.opacity = '0.5';
-        // }, 200);
     }
 
     return(
@@ -159,7 +147,7 @@ function SectionExames() {
 
             <div className="ContainerBotaoAreaExames">
                 <button className='BotaoExames'>
-                    Agendar consulta
+                    Agendar exame
                 </button>
             </div>
         </section>
