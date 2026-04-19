@@ -166,7 +166,8 @@ function FormularioContato() {
                 className={cpfError ? 'input-error' : ''}
                 autoComplete='new-password'
                 />
-                {cpfError && <span className="error-text" style={{ color:'red', fontSize: '14px', marginTop: '5px', display:'block' }}>{cpfError}</span>}
+                {cpfError && <span className="error-text" style={{ color:'red', fontSize: '13px', margin: '-8px 0px -6px', display:'block' }}>{cpfError}</span>}
+                {/* margin: -3px 0px -2px 0px; */}
 
             </div>
 
@@ -185,7 +186,7 @@ function FormularioContato() {
                 // className=""
                 />
                 {/* Exibe mensagem de erro se emailError for válido */}
-                {emailError && <span className="error-text" style={{ color: 'red', fontSize: '14px', marginTop: '5px', display: 'block' }}>{emailError}</span>}
+                {emailError && <span className="error-text" style={{ color: 'red', fontSize: '13px', margin: '-8px 0px -6px', display: 'block' }}>{emailError}</span>}
             </div>
 
             <div className="FormGroup">
