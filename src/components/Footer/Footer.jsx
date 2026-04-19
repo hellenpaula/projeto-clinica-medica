@@ -22,7 +22,7 @@ function Footer() {
                 </div>
 
                 <p className="ParagrafoLogoFooter">
-                    Call out a feature, benefit, or value of your site, then link to a page.
+                    Cuidando da sua saúde com dedicação, tecnologia e respeito.
                 </p>
             </div>
 

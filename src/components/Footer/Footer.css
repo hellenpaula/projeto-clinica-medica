@@ -43,6 +43,7 @@
 
 .ParagrafoLogoFooter {
     color: #ffffffcf;
+    text-align: center;
 }
 
 
@@ -99,6 +100,10 @@
     .ContainerLogo {
         width: 17rem;
         align-items: start;
+    }
+
+    .ParagrafoLogoFooter {
+        text-align: left;
     }
 
     .TituloLinksPagFooter, .TituloLinksSuporteFooter {
