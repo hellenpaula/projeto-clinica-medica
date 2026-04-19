@@ -1,14 +1,6 @@
 
 import './SectionHome.css'
 
-// img:
-import imagem from '../../../assets/img/img home médico paciente.jpg'
-
-import imagemMedicos from '../../../assets/img/img area home.jpg'
-
-import imagemMedicosAzul from '../../../assets/img/img area home azul.jpg'
-
-
 function SectionHome() {
     return(
         <section className="ContainerSectionHome">
@@ -18,12 +10,11 @@ function SectionHome() {
                     <h2 className="TituloAreaTextoHome">Sua saúde, <br/>
                     Nossa prioridade</h2>
                     <p className="ParagrafoAreaTextoHome">
-                        Call out a feature, benefit, or value of your site, then link to a page where people can learn more about it.
+                        
+                    Cuidamos de você com dedicação, tecnologia de ponta e uma equipe médica preparada para cada etapa da sua vida.
                     </p>
                 </div>
-                {/* <div className="ImgSectionHome">
-                    <img src={imagem} alt="" className='img'/>
-                </div> */}
+                
             </div>
         </section>
     )
