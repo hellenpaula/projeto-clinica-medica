@@ -10,16 +10,6 @@
 
 
 .ContainerCardsAreaEspecialidades {
-        /* display: flex; */
-        /* grid-template-columns: 25%; */
-        /* justify-content: left;
-        gap: 32px;
-        overflow-x: scroll;
-        scroll-behavior: smooth;
-        max-width: 330px;
-        margin: 0px 0px 61px;
-        padding: 10px 11px; */
-
     display: flex;
     justify-content: flex-start;
     gap: 24px;
@@ -108,21 +98,12 @@
 }
 
 @media(min-width: 800px) {
-    /* .SectionEspecialidades {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    } */
 
     .ContainerCardsAreaEspecialidades {
-        /* display: flex; */
-        /* grid-template-columns: 25% 25% 25%; */
-        /* justify-content: center; */
+
         gap: 15px;
         max-width: 39rem;
-        /* scrollbar-width: none; */
-        /* flex-wrap: wrap; */
+
     }
 
     .BotaoEspecialidade {
@@ -142,8 +123,7 @@
 
       .ContainerCardsAreaEspecialidades {
         display: flex;
-        /* grid-template-columns: 25% 25% 25%; */
-        /* justify-content: center; */
+
         gap: 27px;
         max-width: 59rem;
         scrollbar-width: none;
