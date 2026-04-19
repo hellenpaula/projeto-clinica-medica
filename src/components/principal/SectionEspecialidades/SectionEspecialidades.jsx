@@ -7,6 +7,17 @@ import CardsEspecialidades from './CardsEspecialidades';
 // imagens:
 import ImagemIconeOdonto from '../../../assets/icone/icone dente.png'
 
+import ImagemIconeNeuro from '../../../assets/icone/cerebro.png'
+
+import ImagemIconeCardio from '../../../assets/icone/coracao.png'
+
+import ImagemIconeGastro from '../../../assets/icone/estomago 2.png'
+
+import ImagemIconeOrto from '../../../assets/icone/osso.png'
+
+import ImagemIconeDerma from '../../../assets/icone/pele.png'
+
+
 import ImagemSeta from '../../../assets/icone/seta.png'
 
 import { useRef, useState } from 'react'
@@ -19,43 +30,49 @@ function SectionEspecialidades() {
             background: '#0f6bbb24',
             ImagemIconeEspeciali:  ImagemIconeOdonto,
             TituloCardEspeciali: 'Odontologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'2.9rem'
 
         },
         {
             Id: 2,
             background: '#1cd70330',
-            ImagemIconeEspeciali: ImagemIconeOdonto,
+            ImagemIconeEspeciali: ImagemIconeNeuro,
             TituloCardEspeciali: 'Neurologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'3.1rem'
         },
         {
             Id: 3,
             background: '#d71c031f',
-            ImagemIconeEspeciali: ImagemIconeOdonto,
+            ImagemIconeEspeciali: ImagemIconeCardio,
             TituloCardEspeciali: 'Cardiologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'3.3rem'
         },
         {
             Id: 4,
             background: '#fae84c58',
-            ImagemIconeEspeciali: ImagemIconeOdonto,
+            ImagemIconeEspeciali: ImagemIconeGastro,
             TituloCardEspeciali: 'Gastroenterologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'3.3rem'
         },
         {
             Id: 5,
             background: '#ed33cb2c',
-            ImagemIconeEspeciali: ImagemIconeOdonto,
+            ImagemIconeEspeciali: ImagemIconeOrto,
             TituloCardEspeciali: 'Orthopedista',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'3.3rem'
         },
         {
             Id: 6,
             background: '#a7a7a74b',
-            ImagemIconeEspeciali: ImagemIconeOdonto,
+            ImagemIconeEspeciali: ImagemIconeDerma,
             TituloCardEspeciali: 'Dermatologista',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.'
+            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            width:'3.3rem'
         }
 
     ]
@@ -126,6 +143,7 @@ function SectionEspecialidades() {
                  ImagemIconeEspeciali={dado.ImagemIconeEspeciali}
                  TituloCardEspeciali = {dado.TituloCardEspeciali}
                  ParagrafoCardEspeciali = {dado.ParagrafoCardEspeciali}
+                 width={dado.width}
                  />
             ))}
            
