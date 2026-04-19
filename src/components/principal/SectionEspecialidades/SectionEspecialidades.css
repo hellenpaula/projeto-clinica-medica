@@ -10,15 +10,15 @@
 
 
 .ContainerCardsAreaEspecialidades {
-        display: flex;
+        /* display: flex; */
         /* grid-template-columns: 25%; */
-        justify-content: left;
+        /* justify-content: left;
         gap: 32px;
         overflow-x: scroll;
         scroll-behavior: smooth;
         max-width: 330px;
         margin: 0px 0px 61px;
-        padding: 10px 0px;
+        padding: 10px 11px; */
 
     display: flex;
     justify-content: flex-start;
@@ -27,7 +27,7 @@
     scroll-behavior: smooth;
     max-width: 311px;
     margin: 0px 0px 61px;
-    padding: 10px 0px;
+    padding: 10px 0px 10px 9px;
     scrollbar-width: none;
 
 }
