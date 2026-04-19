@@ -30,21 +30,21 @@ function SectionContato() {
             Id: 1,
             Icone: IconeLocalizacao,
             Titulo: 'Endereço',
-            Paragrafo: 'Rio de janeiro, Centro',
+            Paragrafo: 'Rio de Janeiro, Centro - Av. Nilo Peçanha, 50',
             background: 'rgb(15 107 187 / 23%)'
         },
         {
             Id: 2,
             Icone: IconeTelefone,
             Titulo: 'Telefone',
-            Paragrafo: '+55 210000-0000 ',
+            Paragrafo: '+55 (21)0000-0000',
             background: 'rgb(28 215 3 / 21%)'
         },
          {
             Id: 3,
             Icone: IconeEmail,
             Titulo: 'E-Mail',
-            Paragrafo: 'fulano@gmail.com',
+            Paragrafo: 'contato@medicalclinica.com.br',
             background: 'rgb(215 28 3 / 17%)'
         },
 
@@ -55,16 +55,17 @@ function SectionContato() {
     return(
         <section className="SectionContato">
             <div className="TituloPrincipalSectionContato">
-                <h3 className="TituloSectionContato">Duvidas?</h3>
+                <h3 className="TituloSectionContato">Dúvidas?</h3>
                 <p className="ParagrafoPrincipalSectionContato">  
-           Para mais informações entre em contato conosco pelas                                             nossas redes sociais ou envie uma mensagem pelo formulário.
+           
+                Estamos prontos para te atender! Entre em contato pelos nossos canais, redes sociais ou preencha o formulário para tirar dúvidas e agendar um serviço.
                 </p>
             </div>
 
             <div className="ContainerConteudoSectionContato">
                 <div className="AreaTextoSectionContato">
                     <h4 className="TituloAreaTextoSectionContato">Informações de contato</h4>
-                    <p className="ParagrafoAreaTextoSectionContato">Há mais de 15 anos cuidando da saúde e bem-estar de nossos pacientes. Nossa missão é proporcionar atendimento médico </p>
+                    <p className="ParagrafoAreaTextoSectionContato">Há mais de 15 anos cuidando da saúde e bem-estar dos nossos pacientes. Fale conosco pelo canal de sua preferência e agende seu atendimento com facilidade. </p>
 
                     <hr className="LinhaDivisoria" />
 

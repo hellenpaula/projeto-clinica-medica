@@ -13,7 +13,7 @@ function MapaContato() {
             referrerPolicy="no-referrer-when-downgrade"
             src="https://www.google.com/maps?q=-22.906149, -43.177256&z=16&output=embed"
             className="IframeMapa"
-            /* allowfullscreen */>
+            >
             </iframe>
         </section>
     )
