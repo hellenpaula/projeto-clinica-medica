@@ -36,6 +36,7 @@
     color: #eeeeee;
     font-family: "Inter";
     font-weight: 600;
+    text-shadow: 1px 1px 10px #00000061;
 }
 
 
@@ -45,6 +46,7 @@
     color: #ecececb3;
     font-size: 20px;
     font-family: 'Poppins';
+    text-shadow: 1px 1px 10px #0000007a;
 }
 
 .ImgSectionHome {
@@ -108,6 +110,7 @@
 
     .TituloAreaTextoHome {
         font-size: 53px;
+        font-size: 50px;
     }
 
     .ParagrafoAreaTextoHome {
