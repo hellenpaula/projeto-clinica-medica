@@ -5,6 +5,8 @@ import './Footer.css'
 
 import {Link} from 'react-router-dom';
 
+import ImagemLogoFooter from '../../assets/icone/estetoscopio.png'
+
 function Footer() {
     return(
         <footer className="ContainerFooter">
@@ -12,9 +14,12 @@ function Footer() {
         <div className="TextAreaFooter">
             
             <div className="ContainerLogo">
-                <h1 className="LogoFooter">
-                    Medical
-                </h1>
+                <div className="ContainerLogoImagemFooter">
+                    <img src={ImagemLogoFooter} alt="" />
+                    <h1 className="LogoFooter">
+                        Medical
+                    </h1>
+                </div>
 
                 <p className="ParagrafoLogoFooter">
                     Call out a feature, benefit, or value of your site, then link to a page.

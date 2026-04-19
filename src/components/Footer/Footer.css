@@ -22,10 +22,23 @@
     gap: 12px;
 }
 
+.ContainerLogoImagemFooter {
+    display: flex;
+    gap: 8px;
+}
+
+.ContainerLogoImagemFooter img {
+    width: 43px;
+    height: 40px;
+    margin: 0px 0px 0px;
+}
+
 .LogoFooter {
     /* color: rgb(0 115 162); */
     color: rgb(17 81 164);
     font-family: "Inter";
+    font-size: 34px;
+    font-weight: 600;
 }
 
 .ParagrafoLogoFooter {
