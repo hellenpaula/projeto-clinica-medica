@@ -1,23 +1,13 @@
 
 
 .SectionHome {
-    /* background-color: rgb(146, 184, 251); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.467), rgba(0, 0, 0, 0.405)), 
-    /* url('/src/assets/img/img home médico paciente.jpg'); */
     url('/src/assets/img/img area home azul.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 93vh;
-    /* filter: brightness(0.9); */
-    /* height: 399px; */
-
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
     padding: 100px 10px 51px 27px;
-    /* gap: 29px */
 
 }
 
@@ -66,8 +56,6 @@
 
 @media(min-width: 754px) {
     .SectionHome {
-        /* flex-direction: row; */
-        /* justify-content: left; */
         padding: 13px 82px 51px;
         height: 58vh;
     }
@@ -80,7 +68,6 @@
 
     .AreaTextoContainerHome {
         max-width: 25rem;
-        /* width: 30rem; */
     }
 
     .TituloAreaTextoHome {
@@ -96,8 +83,6 @@
 
     .SectionHome {
         gap: 50px;
-        /* justify-content: space-evenly; */
-        /* justify-content: left; */
         padding: 81px 106px 3px;
         height: 93vh;
     }
@@ -105,7 +90,6 @@
     .AreaTextoContainerHome {
         max-width: 39rem;
         padding: 98px 27px;
-        /* width: 45rem; */
     }
 
     .TituloAreaTextoHome {

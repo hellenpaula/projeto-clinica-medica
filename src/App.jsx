@@ -33,7 +33,6 @@ function App() {
 
   return (
   <div>
-    {/* header vem aqui */}
     
     {/* ligar ao header component */}
     <Router>
