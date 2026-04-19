@@ -11,10 +11,14 @@
     /* background: rgb(212, 236, 242); */
     background: rgb(8 76 164 / 16%);
     height: 60px;
-    padding: 10px 9px 9px 9px;
+    padding: 9px 9px 9px 9px;
     font-size: 31px;
     border-radius: 6px;
-    width: 110px;
+    width: 95px;
+    height: 52px;
+    box-shadow: 1px 1px 10px #00000017;
+    border: 1px solid #0000ff17;
+
 }
 
 .tituloTextoCardSobre {
@@ -22,10 +26,11 @@
     /* color: rgb(17 81 164); */
     /* color: rgb(0 115 162); */
     color: rgb(17 81 164);
+    font-family: 'Inter';
 }
 
 .paragrafoTextoCardSobre {
-    font-size: 17px;
+    font-size: 16px;
     color: #545454;
 }
 

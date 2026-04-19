@@ -5,6 +5,8 @@ import CardsSobre from './CardsSobre.jsx'
 
 import ImgSectionSobre from '../../../assets/img/img sobre médica paciente.jpg'
 
+// import ImgSectionSobre from '../../../assets/img/img sobre médica paciente - Copia.jpg'
+
 import ImgMaletaMedico from '../../../assets/icone/maleta medico.png'
 
 import ImgAward from '../../../assets/icone/award 2.png'
