@@ -2,7 +2,6 @@
 
 .SectionSobre {
     background-color: #eeeeee61;
-    /* color: rgba(16, 99, 172, 0.692); */
     display: flex;
     flex-direction: column;
 }
@@ -12,8 +11,6 @@
     flex-direction: column;
     padding: 102px 32px 158px;
     align-items: center;
-    /* order: 2; */
-    /* padding: 0px 20px; */
 }
 
 .IntroducaoAreaTextoSobre {
@@ -23,8 +20,6 @@
 .TituloIntroducaoAreaSobre {
     font-family: "Inter";
     font-size: 33px;
-    /* color: rgb(17 81 164); */
-    /* color: rgb(0 115 162);; */
     color: rgb(17 81 164);
     padding: 0px 0px 13px;
     text-align: center;
@@ -51,12 +46,8 @@
 .ContainerImgSectionSobre {
     margin: 101px 0px 100px;
     align-self: center;
-    /* background-color: rgb(14 79 164 / 34%); */
     background-color: rgb(8 76 164 / 16%);
-    /* border-radius: 13% 1%; */
     padding: 37px 0px 0px 42px;
-    /* width: 18.6rem; */
-    /* height: 18.4rem; */
     order: 2;
 
     height: 24rem;
@@ -69,17 +60,13 @@
 }
 
 .ImgSectionSobre {
-    /* border-radius: 149px 146px 6px 6px;
-    width: 16rem;
-    object-fit: cover; */
-
     margin: -63px 0px 0px -12px;
-        height: 28rem;
-        border-radius: 149px 146px 6px 6px;
-        width: 17rem;
-        border: 1px solid rgb(46 190 226);
-        padding: 15px 0px 0px 11px;
-        object-fit: cover
+    height: 28rem;
+    border-radius: 149px 146px 6px 6px;
+    width: 17rem;
+    border: 1px solid rgb(46 190 226);
+    padding: 15px 0px 0px 11px;
+    object-fit: cover
 
 }
 
@@ -100,11 +87,9 @@
         margin: 0px 0px 0px -32px;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
 }
 
     .ParagrafoIntroducaoAreaSobre {
-        /* font-size: 20px; */
         max-width: 400px;
         text-align: start;
         padding: 0px 0px 76px;
@@ -122,12 +107,10 @@
         gap: 47px;
         max-width: none;
         align-items: center;
-        /* padding: 10px; */
 }
 
     .ContainerImgSectionSobre {
         margin: 422px 0px 50px;
-        /* height: 24rem; */
         margin: 461px 0px 50px;
         width: 19rem;
         border-radius: 22px 22px;
@@ -161,8 +144,6 @@
 
     .ParagrafoIntroducaoAreaSobre {
         font-size: 18px;
-        /* max-width: 400px;
-        text-align: start; */
     }
 
     .ContainerCardsAreaSobre {
@@ -171,7 +152,6 @@
 
     .ContainerImgSectionSobre {
         margin: 430px 0px 50px;
-        /* height: 24rem; */
         margin: 461px 0px 50px;
         width: 24rem;
         border-radius: 22px 22px;
