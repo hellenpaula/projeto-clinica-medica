@@ -1,8 +1,8 @@
 
 .ContainerFormularioContato{
     background-color: rgb(8 76 164 / 25%);
-    padding: 30px 45px;
-    height: 554px;
+    padding: 17px 45px;
+    max-height: 538px;
     border-radius: 16px;
     box-shadow: 1px 1px 16px #00000026;
 }
@@ -27,7 +27,7 @@
 }
 
 .FormGroup input {
-    padding: 13px;
+    padding: 11px;
     border-radius: 8px;
     border: 2px solid #0000004a;
     outline: none;
@@ -40,7 +40,7 @@
 }
 
 #mensagem {
-    padding: 9px 13px 0px;
+    padding: 6px 13px 0px;
     outline: none;
     border: 2px solid #0000004a;
 
@@ -76,8 +76,8 @@
     color: rgb(54, 17, 23);
 } */
 .CheckboxGroup label {
-    font-size: 13px;
-    width: 146px;
+    font-size: 12px;
+    width: 157px;
 }
 
 .SubmitBtn {
@@ -95,4 +95,57 @@
 .SubmitBtn:hover {
     background-color: rgba(15, 55, 106, 0.881);
     transition: 0.3s ease;
+}
+
+@media(max-width: 790px) {
+
+    
+
+    .ContainerFormularioContato {
+        width: 320px;
+    }
+
+    .TituloFormularioContato {
+        font-size: 18px;
+    }
+
+    .FormGroup input {
+        width: 235px;
+        padding: 9px;
+    
+    }
+
+    #mensagem {
+        width: 233px;
+    }
+
+    .LabelFormularioContato {
+        font-size: 14px;
+    }
+
+    .FooterFormulario {
+        margin: 12px 0px;
+    }
+
+    .CheckboxGroup input {
+        width: 230px;
+        margin: 0px -106px;
+    }
+
+    .CheckboxGroup label {
+        font-size: 11px;
+        width: 141px;
+    }
+
+    .SubmitBtn {
+        background: rgb(15 54 106);
+        color: white;
+        padding: 3px 26px;
+        border: none;
+        border-radius: 23px;
+        font-size: 12px;
+        height: 35px;
+        font-family: 'Poppins';
+        transition: 0.3s ease;
+    }
 }
