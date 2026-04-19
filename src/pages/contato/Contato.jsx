@@ -8,7 +8,6 @@ function Contato() {
     return(
         <section className="SectionContato">
             
-            <p>Área contato</p>
             <SectionContato />
         </section>
     )

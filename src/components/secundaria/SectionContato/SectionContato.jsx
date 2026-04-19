@@ -15,9 +15,13 @@ import IconeTelefone from '../../../assets/icone/telefone.png'
 
 import IconeEmail from '../../../assets/icone/email.png'
 
+import IconeWhatsapp from '../../../assets/icone/whatsapp.png'
 
+import IconeInstagram from '../../../assets/icone/instagram.png'
 
+import IconeFacebook from '../../../assets/icone/facebook.png'
 
+import IconeYoutube from '../../../assets/icone/youtube.png'
 
 function SectionContato() {
 
@@ -26,19 +30,22 @@ function SectionContato() {
             Id: 1,
             Icone: IconeLocalizacao,
             Titulo: 'Endereço',
-            Paragrafo: 'Rio de janeiro, Centro'
+            Paragrafo: 'Rio de janeiro, Centro',
+            background: 'rgb(15 107 187 / 23%)'
         },
         {
             Id: 2,
             Icone: IconeTelefone,
             Titulo: 'Telefone',
-            Paragrafo: '+55 210000-0000 '
+            Paragrafo: '+55 210000-0000 ',
+            background: 'rgb(28 215 3 / 21%)'
         },
          {
             Id: 3,
             Icone: IconeEmail,
             Titulo: 'E-Mail',
-            Paragrafo: 'fulano@gmail.com'
+            Paragrafo: 'fulano@gmail.com',
+            background: 'rgb(215 28 3 / 17%)'
         },
 
     ]
@@ -59,6 +66,8 @@ function SectionContato() {
                     <h4 className="TituloAreaTextoSectionContato">Informações de contato</h4>
                     <p className="ParagrafoAreaTextoSectionContato">Há mais de 15 anos cuidando da saúde e bem-estar de nossos pacientes. Nossa missão é proporcionar atendimento médico </p>
 
+                    <hr className="LinhaDivisoria" />
+
                     <div className="ContainerCardsContatos">
                         {DadosContato.map((dado) => (
                             <CardsContato
@@ -66,6 +75,7 @@ function SectionContato() {
                             Icone={dado.Icone}
                             Titulo={dado.Titulo}
                             Paragrafo={dado.Paragrafo}
+                            background={dado.background}
                             />
                         ))}
                     </div>
@@ -79,19 +89,19 @@ function SectionContato() {
 
                         <div className="IconesRedesSectionContato">
                         <button className="DivIconeRede">
-                            <img src={IconeTelefone} alt="" />
+                            <img src={IconeWhatsapp} alt="" />
                         </button>
 
                         <button className="DivIconeRede">
-                            <img src={IconeTelefone} alt="" />
+                            <img src={IconeInstagram} alt="" />
                         </button>
 
                         <button className="DivIconeRede">
-                            <img src={IconeTelefone} alt="" />
+                            <img src={IconeFacebook} alt="" />
                         </button>
 
                         <button className="DivIconeRede">
-                            <img src={IconeTelefone} alt="" />
+                            <img src={IconeYoutube} alt="" />
                         </button>
                         
                         

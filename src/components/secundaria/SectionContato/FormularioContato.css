@@ -1,32 +1,55 @@
 
 .ContainerFormularioContato{
-    background-color: rgb(124, 124, 255);
+    background-color: rgb(8 76 164 / 25%);
     padding: 30px 45px;
-    height: 456px;
+    height: 554px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 16px #00000026;
 }
 
 .TituloFormularioContato {
-    font-size: 20px;
-    margin: 0px 0px 16px 0px;
+    font-size: 23px;
+    margin: 0px 0px 6px 0px;
+    color: rgb(15 54 106);
+    font-family: "Inter";
 }
 
 .FormGroup{
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 12px;
 }
 
 .LabelFormularioContato {
     font-weight: 600;
-    margin: 5px 0px 1px;
+    margin: 9px 0px -5px;
+    color: rgb(15 54 106);
 }
 
 .FormGroup input {
-    padding: 9px;
+    padding: 13px;
     border-radius: 8px;
-    border: 1px solid #808080d1;
+    border: 2px solid #0000004a;
+    outline: none;
+    border: 2px solid transparent;
 }
 
+.FormGroup input:focus {
+    outline: none;
+    border: 2px solid rgba(67, 67, 78, 0.567);
+}
+
+#mensagem {
+    padding: 9px 13px 0px;
+    outline: none;
+    border: 2px solid #0000004a;
+
+}
+
+#mensagem:focus {
+    outline: none;
+    border: 2px solid rgba(67, 67, 78, 0.567);
+}
 
 .FooterFormulario {
     display: flex;
@@ -58,14 +81,18 @@
 }
 
 .SubmitBtn {
-    background: #16167ab3;
+    background: rgb(15 54 106);
     color: white;
-    padding: 11px 30px;
+    padding: 11px 35px;
     border: none;
     border-radius: 23px;
     font-size: 13px;
+    height: 42px;
+    font-family: 'Poppins';
+    transition: 0.3s ease;
 }
 
 .SubmitBtn:hover {
-    background-color: #16167aa5;
+    background-color: rgba(15, 55, 106, 0.881);
+    transition: 0.3s ease;
 }

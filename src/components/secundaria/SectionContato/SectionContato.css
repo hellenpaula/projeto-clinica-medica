@@ -8,13 +8,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px 88px;
+    
 }
 
 .TituloSectionContato {
-    font-size: 34px;
+    /* font-size: 34px; */
     color: #383880;
-    padding: 90px 0px 34px;
+    padding: 90px 0px 23px;
     text-align: center;
+    font-size: 31px;
+    color: rgb(17 81 164);
 }
 
 .ParagrafoPrincipalSectionContato {
@@ -51,6 +55,8 @@
 
 .TituloAreaRedes {
     font-size: 20px;
+    font-family: "Inter";
+    color: rgb(17 81 164);
 
 }
 
@@ -61,14 +67,22 @@
 }
 
 .DivIconeRede  {
-    background-color: rgb(180, 180, 255);
+    background-color: rgb(8 76 164 / 16%);
     border-radius: 50%;
-    padding: 8px;
-       
+    padding: 9px;
+    transition: 0.3s ease;
+    box-shadow: 1px 1px 10px #00000017;
+    border: 1px solid #0000ff1c;
 }
 
+.DivIconeRede:hover {
+    background-color: rgba(8, 76, 164, 0.358);
+    transition: 0.3s ease;
+}
+
+
 .DivIconeRede img {
-    width: 30px;
+    width: 27px;
 }
 
 
@@ -91,14 +105,14 @@
 }
 
 .TituloSectionContato {
-    font-size: 34px;
-    color: #383880;
-    padding: 90px 0px 34px;
+    /* font-size: 34px; */
+    
+    padding: 90px 0px 23px;
     text-align: center;
 }
 
 .ParagrafoPrincipalSectionContato {
-    width: 421px;
+    width: 438px;
     text-align: center;
 }
 
@@ -111,11 +125,13 @@
 }
 
 .TituloAreaTextoSectionContato {
-    font-size: 20px;
+    font-size: 23px;
+    font-family: "Inter";
+    color: rgb(17 81 164);
 }
 
 .ParagrafoAreaTextoSectionContato {
-    padding: 10px 0px;
+    padding: 10px 0px 8px;
     width: 327px;
 }
 
@@ -130,7 +146,8 @@
 }
 
 .TituloAreaRedes {
-    font-size: 20px;
+    font-size: 23px;
+    
 
 }
 
@@ -141,14 +158,15 @@
 }
 
 .DivIconeRede  {
-    background-color: rgb(180, 180, 255);
+    /* background-color: rgb(180, 180, 255); */
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px 10px;
+    
        
 }
 
 .DivIconeRede img {
-    width: 30px;
+    width: 27px;
 }
 
 

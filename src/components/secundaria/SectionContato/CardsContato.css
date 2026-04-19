@@ -7,11 +7,15 @@
 .DivIconeCardContato {
     background-color: rgb(180, 180, 255);
     border-radius: 50%;
-    padding: 8px;
+    padding: 8px 9px;
+    box-shadow: 1px 1px 10px #00000017;
+    border: 1px solid #4c4c4c24;
 }
+
 
 .IconeCardContato {
     width: 30px;
-    
+    position: relative;
+    top: 4px;
 
 }
