@@ -8,13 +8,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 0px 0px 88px; */
     padding: 0px 0px 17px;
     
 }
 
 .TituloSectionContato {
-    /* font-size: 34px; */
     color: #383880;
     padding: 90px 0px 23px;
     text-align: center;
@@ -88,7 +86,6 @@
 
 
 .AreaFormularioSectionContato{
-    /* background-color: rgb(124, 124, 255); */
     width: 400px;
     height: 500px;
     border-radius: 16px;
@@ -108,7 +105,6 @@
 }
 
 .TituloSectionContato {
-    /* font-size: 34px; */
     
     padding: 90px 0px 23px;
     text-align: center;
@@ -161,7 +157,6 @@
 }
 
 .DivIconeRede  {
-    /* background-color: rgb(180, 180, 255); */
     border-radius: 50%;
     padding: 10px 10px;
     
@@ -174,7 +169,6 @@
 
 
 .AreaFormularioSectionContato{
-    /* background-color: rgb(124, 124, 255); */
     width: 400px;
     height: 500px;
 }

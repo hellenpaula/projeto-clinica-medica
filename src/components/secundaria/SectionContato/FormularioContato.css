@@ -58,8 +58,6 @@
 }
 
 .CheckboxGroup {
-    /* margin: 22px 0px; */
-    /* text-align: center; */
     display: flex;
     flex-direction: row;
 }
@@ -69,12 +67,10 @@
     width:  1.1em;
     height: 1.15em;
     transform: translateY(-0.075em);
-    /* align-self: center; */
+   
 }
 
-/* .CheckboxGroup input::checkmark {
-    color: rgb(54, 17, 23);
-} */
+
 .CheckboxGroup label {
     font-size: 12px;
     width: 157px;
