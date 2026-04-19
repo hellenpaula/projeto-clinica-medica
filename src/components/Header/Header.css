@@ -33,6 +33,19 @@
     } */
 }
 
+
+.ContainerLogoHeader {
+    display: flex;
+    gap: 8px;
+}
+
+.ContainerHeader img {
+    width: 43px;
+    height: 40px;
+    margin: 34px 0px 0px;
+}
+
+
 .ContainerListaMenu {
     list-style: none;
     display: flex;
@@ -79,6 +92,10 @@
     }
 
     .LogoHeader {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .ContainerHeader img {
         margin: 0px 0px 0px 33px;
     }
        
@@ -103,10 +120,14 @@
     }
 
     .LogoHeader {
-        margin: 7px 0px 0px 128px;
+        margin: 7px 0px 0px 0px;
         font-size: 37px;
     }
        
+    .ContainerHeader img {
+        margin: 7px 0px 0px 128px;
+    }
+
     .ContainerListaMenu {
         margin: 16px 0px 0px 0px;
         gap: 23px;

@@ -3,10 +3,15 @@ import './Header.css'
 
 import {Link} from 'react-router-dom';
 
+import ImagemLogo from '../../assets/icone/estetoscopio.png'
+
 function Header() {
     return(
        <header className="ContainerHeader">
-            <h1 className="LogoHeader">Medical</h1>
+        <div className="ContainerLogoHeader">
+                <img src={ImagemLogo} alt="" />
+                <h1 className="LogoHeader">Medical</h1>
+        </div>
 
             <nav className="Nav">
                 <ul className="ContainerListaMenu">
