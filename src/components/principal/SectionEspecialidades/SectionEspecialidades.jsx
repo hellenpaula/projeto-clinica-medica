@@ -30,7 +30,7 @@ function SectionEspecialidades() {
             background: '#0f6bbb24',
             ImagemIconeEspeciali:  ImagemIconeOdonto,
             TituloCardEspeciali: 'Odontologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Cuidados completos com a sua saúde bucal, de consultas preventivas a tratamentos estéticos e restauradores.',
             width:'2.9rem'
 
         },
@@ -39,7 +39,7 @@ function SectionEspecialidades() {
             background: '#1cd70330',
             ImagemIconeEspeciali: ImagemIconeNeuro,
             TituloCardEspeciali: 'Neurologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Diagnóstico e tratamento de doenças do sistema nervoso com tecnologia avançada e equipe especializada.',
             width:'3.1rem'
         },
         {
@@ -47,7 +47,7 @@ function SectionEspecialidades() {
             background: '#d71c031f',
             ImagemIconeEspeciali: ImagemIconeCardio,
             TituloCardEspeciali: 'Cardiologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Acompanhamento preventivo e tratamento das doenças cardiovasculares com foco na qualidade de vida.',
             width:'3.3rem'
         },
         {
@@ -55,7 +55,7 @@ function SectionEspecialidades() {
             background: '#fae84c58',
             ImagemIconeEspeciali: ImagemIconeGastro,
             TituloCardEspeciali: 'Gastroenterologia',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Avaliação e tratamento do sistema digestivo, do esôfago          ao intestino, com cuidado e precisão.',
             width:'3.3rem'
         },
         {
@@ -63,7 +63,7 @@ function SectionEspecialidades() {
             background: '#ed33cb2c',
             ImagemIconeEspeciali: ImagemIconeOrto,
             TituloCardEspeciali: 'Orthopedista',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Tratamento de lesões, dores articulares e problemas musculoesqueléticos para sua mobilidade e bem-estar.',
             width:'3.3rem'
         },
         {
@@ -71,21 +71,12 @@ function SectionEspecialidades() {
             background: '#a7a7a74b',
             ImagemIconeEspeciali: ImagemIconeDerma,
             TituloCardEspeciali: 'Dermatologista',
-            ParagrafoCardEspeciali: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos temporibus mollitia libero velit excepturi, voluptas debitis deserunt labore rerum a nesciunt.',
+            ParagrafoCardEspeciali: 'Cuidados com a pele, cabelos e unhas, unindo saúde e estética com procedimentos modernos e seguros.',
             width:'3.3rem'
         }
 
     ]
 
-
-    // const total = DadosCardsEspecialidades.length;
-    // const [currentIndex, setCurrentIndex] = useState(0);
-
-    // const handleScroll = () => {
-    // const larguraCard = carrossel.current.offsetWidth;
-    // const novoIndex = Math.round(carrossel.current.scrollLeft / larguraCard);
-    // setCurrentIndex(novoIndex);
-    // }
 
     const carrossel = useRef(null);
     const cardRef = useRef(null);
@@ -100,12 +91,8 @@ function SectionEspecialidades() {
         const gap = parseInt(estilosContainer.gap);
 
         const larguraScroll = larguraCard + gap;
-        // const novoIndex = Math.max(currentIndex - 1, 0);
-        // setCurrentIndex(novoIndex);
+
         carrossel.current.scrollLeft -= larguraScroll;
-        
-        // const novoIndex = Math.max(currentIndex - 1, 0);
-        // setCurrentIndex(novoIndex);
         
     }
 
@@ -122,9 +109,6 @@ function SectionEspecialidades() {
 
          carrossel.current.scrollLeft += larguraScroll;
 
-        // const novoIndex = Math.min(currentIndex + 1, total - 1);
-        // setCurrentIndex(novoIndex);
-        
     }
 
 
@@ -133,7 +117,7 @@ function SectionEspecialidades() {
             <h3 className='TituloAreaTextoEspecialidade'>Especialidades</h3>
        
 
-            <div className="ContainerCardsAreaEspecialidades" ref={carrossel} /* onScroll={handleScroll} */>
+            <div className="ContainerCardsAreaEspecialidades" ref={carrossel} >
 
             {DadosCardsEspecialidades.map((dado, index) => (
                  <CardsEspecialidades 
@@ -156,14 +140,6 @@ function SectionEspecialidades() {
                 <button onClick={ArrowRightClick}><img src={ImagemSeta} alt="" className="SetaDireitaCarrossel" /></button>
             </div>
 
-            {/* <div className='ContainerDots'>
-                {DadosCardsEspecialidades.map((_, i) => (
-                <span 
-                key={i}
-                className={`Dot ${i === currentIndex ? 'DotAtivo': ''}`}>
-                </span>
-            ))}
-            </div> */}
 
             <div className="ContainerBotaoAreaEspecialidade">
                 <button className='BotaoEspecialidade'>
