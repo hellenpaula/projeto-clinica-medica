@@ -5,7 +5,13 @@ Site institucional de uma clínica médica fictícia desenvolvido como projeto f
 ---
 
 ## 📷 Preview do projeto
-<img src="src/assets/video/projeto-api-clima-video.gif" ></img>
+<img src="src/assets/video/video-projeto-final.mp4" ></img>
+
+---
+
+# Preview do Figma
+<img src="src/assets/video/video-projeto-figma.gif" ></img>
+
 
 ## 🔗 Links do Projeto
 
