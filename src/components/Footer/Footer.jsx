@@ -8,6 +8,16 @@ import {Link} from 'react-router-dom';
 import ImagemLogoFooter from '../../assets/icone/estetoscopio.png'
 
 function Footer() {
+
+    
+    const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
     return(
         <footer className="ContainerFooter">
 
@@ -31,13 +41,13 @@ function Footer() {
 
                 <ul className="ListaLinksPagFooter">
                     
-                    <li><a rel="stylesheet" href="#Home" >Home</a></li>
+                    <li><a rel="stylesheet" href="#/" onClick={() => scrollToSection('Home')} >Home</a></li>
                     
-                    <li><a rel="stylesheet" href="#Sobre" >Sobre</a></li>
+                    <li><a rel="stylesheet" href="#/"onClick={() => scrollToSection('Sobre')} >Sobre</a></li>
 
-                    <li><a rel="stylesheet" href="#Especialidades" >Especialidades</a></li>
+                    <li><a rel="stylesheet" href="#/" onClick={() => scrollToSection('Especialidade')}>Especialidades</a></li>
 
-                    <li><a rel="stylesheet" href="#Exames" >Exames</a></li>
+                    <li><a rel="stylesheet" href="#/" onClick={() => scrollToSection('Exames')} >Exames</a></li>
 
                     <li><Link to="/contato" className="">Contato</Link></li>
 
