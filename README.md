@@ -5,11 +5,11 @@ Site institucional de uma clínica médica fictícia desenvolvido como projeto f
 ---
 
 ## 📷 Preview do projeto
-<img src="src/assets/video/video-projeto-final.mp4" ></img>
+<img src="src/assets/video/projeto-final-video-gif.gif" ></img>
 
 ---
 
-# Preview do Figma
+## 📷 Preview do Figma
 <img src="src/assets/video/video-projeto-figma.gif" ></img>
 
 
