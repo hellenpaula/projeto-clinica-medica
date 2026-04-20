@@ -10,7 +10,7 @@ Site institucional de uma clínica médica fictícia desenvolvido como projeto f
 ## 🔗 Links do Projeto
 
 - **Protótipo no Figma:** [Visualizar protótipo](https://www.figma.com/make/DOFjaBeFcp8lSCNKlNnimk/P%C3%A1gina-de-cl%C3%ADnica-m%C3%A9dica?p=f&t=OTNfMUFQoWtFacJG-0&fullscreen=1)
-- **Deploy (GitHub Pages):** _em breve_
+- **Deploy (GitHub Pages):** [Deploy no GitHub Pages](https://hellenpaula.github.io/projeto-clinica-medica/)
 - **Repositório:** [github.com/hellenpaula/projeto-clinica-medica](https://github.com/hellenpaula/projeto-clinica-medica)
 
 ---
