@@ -6,6 +6,15 @@ import {Link} from 'react-router-dom';
 import ImagemLogo from '../../assets/icone/estetoscopio.png'
 
 function Header() {
+
+    const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
     return(
        <header className="ContainerHeader">
         <div className="ContainerLogoHeader">
@@ -15,10 +24,10 @@ function Header() {
 
             <nav className="Nav">
                 <ul className="ContainerListaMenu">
-                    <li ><a href="/#Home" className="ItemListaMenu" >Home</a></li>
-                    <li ><a href="/#Sobre" className="ItemListaMenu">Sobre</a></li>
-                    <li ><a href="/#Especialidade" className="ItemListaMenu" >Especialidade</a></li>
-                    <li ><a href="/#Exames" className="ItemListaMenu" >Exames</a></li>
+                    <li ><a href="#/" className="ItemListaMenu" >Home</a></li>
+                    <li ><a href="#/" className="ItemListaMenu" onClick={() => scrollToSection('Sobre')}>Sobre</a></li>
+                    <li ><a href="#/" className="ItemListaMenu" onClick={() => scrollToSection('Especialidade')} >Especialidade</a></li>
+                    <li ><a href="#/" className="ItemListaMenu" onClick={() => scrollToSection('Exames')} >Exames</a></li>
                     <li ><Link to="/contato" className="ItemListaMenu">Contato</Link></li>
                 </ul>
             </nav>
